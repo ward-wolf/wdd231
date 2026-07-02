@@ -1,0 +1,243 @@
+:root {
+  --black: #1A1A1A;
+  --gold: #C9A84C;
+  --white: #FFFFFF;
+  --light-gray: #F5F5F5;
+  --radius: 4px;
+  --border-thin: 1px solid var(--gold);
+  --border-thick: 3px solid var(--gold);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  color: var(--black);
+  overflow-x: hidden;
+}
+
+/* Layout containers */
+
+header,
+main,
+footer {
+  width: 100%;
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 0.25rem 0 0.25rem;
+}
+
+/* Header */
+
+header {
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.75rem 1.5rem;
+}
+
+header img {
+  width: 110px;
+  height: auto;
+  display: block;
+  border: var(--border-thick);
+  border-radius: var(--radius);
+}
+
+header span {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gold);
+  white-space: nowrap;
+}
+
+header .header-top button {
+  background: none;
+  border: none;
+  color: var(--white);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Navigation */
+
+.navigation {
+  display: none;
+  width: 100%;
+}
+
+.navigation.show {
+  display: block;
+}
+
+.navigation ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+.navigation a {
+  display: block;
+  color: var(--white);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+}
+
+.navigation a:hover {
+  background-color: var(--gold);
+  color: var(--black);
+}
+
+.navigation li.current a {
+  background-color: var(--gold);
+  color: var(--black);
+}
+
+/* Headings */
+
+h1 {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 1.75rem;
+  color: var(--black);
+  margin: 0.25rem 0;
+  padding: 0 1rem;
+}
+
+h2 {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 1.25rem;
+  color: var(--black);
+  background-color: var(--gold);
+  padding: 0.5rem 1rem;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+/* Sections */
+
+section {
+  padding: 0 1rem;
+  margin-bottom: 1.5rem;
+}
+
+section h2 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.about-me,
+.student-photo {
+  background-color: var(--light-gray);
+  border: var(--border-thin);
+  padding-bottom: 1rem;
+}
+
+section p {
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+section img {
+  border: var(--border-thick);
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Course buttons */
+
+.course-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.course-buttons button {
+  flex: 1;
+  background-color: var(--gold);
+  color: var(--black);
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: var(--radius);
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.course-buttons button:hover,
+.course-buttons button.active {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+/* Course cards */
+
+#course-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.credit-total {
+  text-align: center;
+}
+
+.complete {
+  background-color: var(--black);
+  color: var(--gold);
+  padding: 0.4rem 0.75rem;
+  border-radius: var(--radius);
+}
+
+.incomplete {
+  background-color: var(--light-gray);
+  color: var(--black);
+  padding: 0.4rem 0.75rem;
+  border-radius: var(--radius);
+  border: var(--border-thin);
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--black);
+  color: var(--gold);
+  padding: 1rem;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0.4rem;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.socialmedia img {
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+
+.socialmedia a:nth-child(2) img {
+  filter: invert(1);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 231 - Frontend Web Development I - S Lee Ward</title> 
+        <meta name="description" content="WDD 231 - Frontend Web Development I - Lee Ward's Home Page with information about me and my home">
+        <meta name="author" content="S Lee Ward">
+        <link rel="icon" type="image/svg" href="images/we-logo.svg">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/larger.css" media="(min-width: 768px)">
+        <script src="scripts/date.js" defer></script>
+        <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/course.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <img src="images/we-logo.svg" alt="Wolf Enterprises Logo" width="140" height="101">
+            <span>S Lee Ward</span>
+            <div class="header-top">
+                <button type="button" id="menu" aria-label="Menu" aria-expanded="false" aria-controls="nav-bar">&#9776;</button>
+            </div>
+            <nav id="nav-bar" class="navigation">
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="chamber.html">Chamber Project</a></li>
+                    <li><a href="final.html">Final Project</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Home</h1>
+            <section class="about-me">
+                <h2>About Me</h2>
+                <p>I currently am in the process of moving so I am a bit of a nomad right now.
+                    Previously, I lived in the United Arab Emirates and the Philippines. I also lived
+                    in almost every part of the US, including Texas, Michigan, Mississippi, Maryland,
+                    Utah, Tennessee, and Oregon.</p>
+                <p>I am an opera singer turned nuclear engineer turned entrepreneur. I have a
+                    bachelor's degree in mathematics and a master's in nuclear engineering focused on
+                    quantum/subatomic physics. Now, I run companies teaching computer programming,
+                    AI/ML, and quantum computing to people around the world. I am also currently going
+                    to school myself to learn cyber security. In 2025, I joined BYU Pathway as a student in
+                    Software Development, which I am really enjoying.</p>
+                <p>I serve as both a religion instructor and as a missionary for Pathway Connect gatherings in
+                    the European and Eurasia Areas. I served my first mission in the Russia Yekaterinburg
+                    Mission (a long time ago). I have served in a few stake presidencies, many
+                    bishoprics, and taught many classes for all ages. I have taught about 50 religion
+                    and institute classes. My life was blessed by amazing institute teachers in my
+                    younger years. I pay tribute to them by teaching myself now.</p>
+            </section>
+            <section class="student-photo">
+                <h2>Student Photo</h2>
+                <img src="images/profile.jpg" alt="S Lee Ward" width="200" height="221" loading="lazy">
+            </section>
+            <section class="courses">
+                <h2>Web Certificate Courses</h2>
+                <div class="course-buttons">
+                    <button type="button" id="all">All</button>
+                    <button type="button" id="wdd">WDD</button>
+                    <button type="button" id="cse">CSE</button>
+                </div>
+                <div id="course-list" aria-live="polite"></div>
+                <p class="credit-total">The total number of credits for the courses listed above is <span id="course-count"></span></p>
+            </section>
+        </main>
+
+        <footer>
+            <div class="socialmedia">
+                <a href="https://www.linkedin.com/in/steveward810"><img src="images/linkedin.svg" alt="LinkedIn" width="30" height="30"></a>
+                <a href="https://github.com/ward-wolf"><img src="images/github.svg" alt="GitHub" width="30" height="30"></a>
+                <a href="https://www.instagram.com/ward_wolf/"><img src="images/instagram.svg" alt="Instagram" width="30" height="30"></a>
+            </div>
+            <p>©<span id="currentyear"></span> <span aria-hidden="true">🌊</span> S. Lee Ward <span aria-hidden="true">🌊</span> Texas, USA</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </footer>
+
+    </body>
+
+</html>
