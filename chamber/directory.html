@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Andrews Chamber of Commerce Directory</title> 
+        <meta name="description" content="Andrews Chamber of Commerce Directory Page featuring information about our amazing community supporters. ">
+        <meta name="author" content="S Lee Ward">
+        <link rel="icon" type="image/ico" href="images/andrews-logo.ico">
+
+        <meta property="og:title" content="Directory for Andrews Chamber of Commerce">
+        <meta property="og:description" content="Directory for members of the Andrews Chamber of Commerce. These companies will help you settle in our community.">
+        <meta property="og:url" content="https://ward-wolf.github.io/wdd231/chamber/directory.html">
+        <meta property="og:image" content="https://ward-wolf.github.io/wdd231/chamber/images/andrews-logo.png">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/larger.css" media="(min-width: 768px)">
+        <script src="scripts/date.js" defer></script>
+        <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/directory.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="header-bar">
+                <img src="images/andrews-logo.svg" alt="Andrews City Logo" width="140" height="101">
+                <span>Andrews Chamber of Commerce</span>
+                <div class="header-top">
+                    <button type="button" id="menu" aria-label="Menu" aria-expanded="false" aria-controls="nav-bar">&#9776;</button>
+                </div>
+            </div>
+            <nav id="nav-bar" class="navigation">
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Directory</h1>
+            <section class="members">
+                <div class="grid-list-buttons">
+                    <button type="button" id="grid">Grid</button>
+                    <button type="button" id="list">List</button>
+                </div>
+                <div id="cards" aria-live="polite"></div>
+            </section>
+        </main>
+        <footer>
+            <div class="address">
+                <p>Andrews Chamber of Commerce</p>
+                <p>100 N Main St</p>
+                <p>Andrews, Texas 79714 USA</p>
+                <p>info@andrewstx.com</p>
+                <p>(432) 789-1000</p>
+            </div>
+            <div class="socialmedia">
+                <a href="https://youtube.com/"><img src="images/youtube.svg" alt="YouTube" width="30" height="30" loading="lazy"></a>
+                <a href="https://www.x.com/"><img src="images/x.svg" alt="X" width="30" height="30" loading="lazy"></a>
+                <a href="https://www.linkedin.com/"><img src="images/linkedin.svg" alt="LinkedIn" width="30" height="30" loading="lazy"></a>
+            </div>
+            <div class="my-data">
+                <p>WDD231 Class Project</p>
+                <p>S Lee Ward</p>
+                <p>©<span id="currentyear"></span> <span aria-hidden="true"></span> Andrews Chamber of Commerce <span aria-hidden="true"></span></p>
+                <p>Last Modification: <span id="lastModified"></span></p>
+            </div>
+        </footer>
+
+    </body>
+
+</html>

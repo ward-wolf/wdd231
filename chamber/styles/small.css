@@ -1,0 +1,280 @@
+:root {
+  --red: #8B0000;
+  --gold: #FFD700;
+  --gold-light: #FFF7D6;
+  --white: #FFFFFF;
+  --ink: #1A1A1A;
+  --radius: 4px;
+  --border-thin: 1px solid var(--red);
+  --border-thick: 3px solid var(--gold);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  color: var(--ink);
+  background-color: var(--white);
+  overflow-x: hidden;
+}
+
+/* Layout containers */
+
+header,
+main,
+footer {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 1rem;
+}
+
+/* Header: logo + name on the left, hamburger on the right */
+
+header {
+  background-color: var(--red);
+  color: var(--gold);
+  padding: 0.75rem 1.5rem;
+}
+
+.header-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.75rem 1rem;
+}
+
+header img {
+  width: 90px;
+  height: auto;
+  display: block;
+  border: var(--border-thick);
+  border-radius: var(--radius);
+}
+
+header span {
+  max-width: 160px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--gold);
+}
+
+header .header-top {
+  margin-left: auto;
+}
+
+header .header-top button {
+  background: none;
+  border: none;
+  color: var(--gold);
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+/* Navigation */
+
+.navigation {
+  display: none;
+  width: 100%;
+}
+
+.navigation.show {
+  display: block;
+}
+
+.navigation ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 0.4rem;
+  padding-top: 0.75rem;
+}
+
+.navigation a {
+  display: block;
+  color: var(--gold);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+}
+
+.navigation a:hover {
+  background-color: var(--gold);
+  color: var(--red);
+}
+
+.navigation li.current a {
+  background-color: var(--gold);
+  color: var(--red);
+}
+
+/* Headings */
+
+h1 {
+  font-size: 1.75rem;
+  color: var(--red);
+  margin: 0.75rem 0;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: var(--red);
+}
+
+/* Grid / List toggle buttons */
+
+.grid-list-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.grid-list-buttons button {
+  flex: 1;
+  background-color: var(--gold);
+  color: var(--red);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.grid-list-buttons button:hover,
+.grid-list-buttons button.active {
+  background-color: var(--red);
+  color: var(--gold);
+}
+
+/* Member cards: grid view */
+
+#cards.grid-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+#cards.grid-view section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: var(--white);
+  border: var(--border-thin);
+  border-radius: var(--radius);
+  padding: 1rem;
+}
+
+#cards.grid-view .top {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#cards.grid-view .top img {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: var(--border-thin);
+}
+
+#cards.grid-view .tagline {
+  font-style: italic;
+  color: #47443a;
+  margin: 0;
+}
+
+#cards.grid-view h2 {
+  font-size: 1.15rem;
+  margin: 0;
+}
+
+#cards.grid-view hr {
+  width: 100%;
+  height: 0;
+  border: none;
+  border-top: 2px solid var(--red);
+  margin: 0;
+}
+
+#cards.grid-view p {
+  font-size: 0.9rem;
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+/* Member cards: list view */
+
+#cards.list-view {
+  display: flex;
+  flex-direction: column;
+}
+
+#cards.list-view section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.65rem 1rem;
+}
+
+#cards.list-view section:nth-child(even) {
+  background-color: var(--gold-light);
+}
+
+#cards.list-view h2 {
+  font-size: 1rem;
+}
+
+#cards.list-view p {
+  font-size: 0.9rem;
+}
+
+/* Footer: address, social, my-data stacked */
+
+footer {
+  background-color: var(--red);
+  color: var(--gold);
+  padding: 1.5rem 1.5rem;
+}
+
+footer > div {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+footer > div:last-child {
+  margin-bottom: 0;
+}
+
+footer p {
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.socialmedia a {
+  display: inline-flex;
+  background-color: var(--gold);
+  border-radius: 50%;
+  padding: 6px;
+}
+
+.socialmedia img {
+  width: 30px;
+  height: 30px;
+  display: block;
+}

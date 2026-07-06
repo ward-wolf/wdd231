@@ -1,0 +1,81 @@
+@media screen and (min-width: 768px) {
+
+    /* Hide hamburger, show nav on the right side of the header */
+    header {
+        display: flex;
+        align-items: center;
+    }
+
+    header .header-top {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        width: auto;
+        margin-left: auto;
+    }
+
+    .navigation ul {
+        flex-direction: row;
+        gap: 0.75rem;
+        padding-top: 0;
+    }
+
+    /* Grid / List toggle buttons */
+    .grid-list-buttons {
+        justify-content: center;
+    }
+
+    .grid-list-buttons button {
+        flex: none;
+        padding: 0.5rem 2rem;
+    }
+
+    /* List view with table style columns */
+    #cards.list-view section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 1.5rem;
+        padding: 0.6rem 1.5rem;
+    }
+
+    #cards.list-view h2 {
+        width: 200px;
+    }
+
+    #cards.list-view .address {
+        width: 280px;
+    }
+
+    #cards.list-view .phone {
+        width: 120px;
+    }
+
+    #cards.list-view .website {
+        width: 200px;
+    }
+
+    /* Footer: address left, social media centered, my-data right */
+    footer {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 1.5rem 2rem;
+    }
+
+    footer > div {
+        margin-bottom: 0;
+    }
+
+    footer .address {
+        text-align: left;
+    }
+
+    footer .my-data {
+        text-align: right;
+    }
+
+}

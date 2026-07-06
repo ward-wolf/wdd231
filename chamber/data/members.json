@@ -1,0 +1,103 @@
+{
+    "members": [
+        {
+            "name": "Andrews Hardware & Supply",
+            "address": "112 N Main St, Andrews, TX 79714",
+            "phone": "(432) 523-1010",
+            "website": "www.andrewshardware.com",
+            "email": "info@andrewshardware.com",
+            "tagline": "Everything you need, right down Main Street.",
+            "image": "andrews-hardware.webp",
+            "membership": 3,
+            "memberSince": 1998
+        },
+        {
+            "name": "Prairie Rose Diner",
+            "address": "204 E Broadway St, Andrews, TX 79714",
+            "phone": "(432) 523-2244",
+            "website": "www.prairierosediner.com",
+            "email": "hello@prairierosediner.com",
+            "tagline": "Home-style cooking, served with a smile.",
+            "image": "prairie-rose-diner.webp",
+            "membership": 2,
+            "memberSince": 2011
+        },
+        {
+            "name": "Estacado Veterinary Clinic",
+            "address": "875 W Business Park Dr, Andrews, TX 79714",
+            "phone": "(432) 523-3355",
+            "website": "www.estacadovetclinic.com",
+            "email": "care@estacadovetclinic.com",
+            "tagline": "Compassionate care for every member of your family.",
+            "image": "estacado-vet-clinic.webp",
+            "membership": 2,
+            "memberSince": 2015
+        },
+        {
+            "name": "Golden Wheat Bakery",
+            "address": "319 NW Avenue D, Andrews, TX 79714",
+            "phone": "(432) 523-4488",
+            "website": "www.goldenwheatbakery.com",
+            "email": "orders@goldenwheatbakery.com",
+            "tagline": "Fresh baked, from our oven to your table.",
+            "image": "golden-wheat-bakery.webp",
+            "membership": 1,
+            "memberSince": 2021
+        },
+        {
+            "name": "Permian Basin Auto Repair",
+            "address": "1420 S Main St, Andrews, TX 79714",
+            "phone": "(432) 523-5566",
+            "website": "www.permianbasinauto.com",
+            "email": "service@permianbasinauto.com",
+            "tagline": "Honest repairs to keep you on the road.",
+            "image": "permian-basin-auto.webp",
+            "membership": 1,
+            "memberSince": 2019
+        },
+        {
+            "name": "Andrews Title & Escrow",
+            "address": "500 E 8th St, Andrews, TX 79714",
+            "phone": "(432) 523-6677",
+            "website": "www.andrewstitleescrow.com",
+            "email": "staff@andrewstitleescrow.com",
+            "tagline": "Closing your deal with confidence since 1987.",
+            "image": "andrews-title-escrow.webp",
+            "membership": 3,
+            "memberSince": 1987
+        },
+        {
+            "name": "West Texas Realty Group",
+            "address": "88 N Avenue F, Andrews, TX 79714",
+            "phone": "(432) 523-7788",
+            "website": "www.wtxrealtygroup.com",
+            "email": "agents@wtxrealtygroup.com",
+            "tagline": "Finding your place in West Texas.",
+            "image": "west-texas-realty.webp",
+            "membership": 2,
+            "memberSince": 2013
+        },
+        {
+            "name": "Mesquite Landscaping",
+            "address": "230 CR 401, Andrews, TX 79714",
+            "phone": "(432) 523-8899",
+            "website": "www.mesquiteyards.com",
+            "email": "quote@mesquiteyards.com",
+            "tagline": "Growing greener yards across Andrews County.",
+            "image": "mesquite-landscaping.webp",
+            "membership": 1,
+            "memberSince": 2022
+        },
+        {
+            "name": "Andrews Family Insurance",
+            "address": "645 NW 2nd St, Andrews, TX 79714",
+            "phone": "(432) 523-9900",
+            "website": "www.andrewsinsurance.com",
+            "email": "info@andrewsinsurance.com",
+            "tagline": "Protecting what matters most to our neighbors.",
+            "image": "andrews-insurance.webp",
+            "membership": 3,
+            "memberSince": 2002
+        }
+    ]
+}
