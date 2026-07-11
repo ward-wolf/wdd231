@@ -10,6 +10,10 @@
         display: none;
     }
 
+    header span {
+        max-width: none;
+    }
+
     .navigation {
         display: block;
         width: auto;
@@ -55,6 +59,16 @@
 
     #cards.list-view .website {
         width: 200px;
+    }
+
+    /* Home page: events / weather / call-to-action in one row */
+    .info-row {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .info-row > section {
+        flex: 1;
     }
 
     /* Footer: address left, social media centered, my-data right */

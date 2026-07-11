@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Andrews Chamber of Commerce Home Page</title> 
+        <meta name="description" content="Andrews Chamber of Commerce Home Page featuring weather, current events, and local business spotlights.">
+        <meta name="author" content="S Lee Ward">
+        <link rel="icon" type="image/ico" href="images/andrews-logo.ico">
+
+        <meta property="og:title" content="Andrews Chamber of Commerce Home Page">
+        <meta property="og:description" content="The Andrews Chamber of Commerce Home Page. Welcoming you to our small town in western Texas.">
+        <meta property="og:url" content="https://ward-wolf.github.io/wdd231/chamber/index.html">
+        <meta property="og:image" content="https://ward-wolf.github.io/wdd231/chamber/images/andrews-logo.png">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/larger.css" media="(min-width: 768px)">
+        <script src="scripts/date.js" defer></script>
+        <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/spotlights.js" defer></script>
+        <script src="scripts/weather.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="header-bar">
+                <img src="images/andrews-logo.svg" alt="Andrews City Logo" width="140" height="101">
+                <span>Andrews Chamber of Commerce</span>
+                <div class="header-top">
+                    <button type="button" id="menu" aria-label="Menu" aria-expanded="false" aria-controls="nav-bar">&#9776;</button>
+                </div>
+            </div>
+            <nav id="nav-bar" class="navigation">
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Welcome to Andrews!</h1>
+
+            <img src="images/andrews-hero.webp" alt="Oil Fields in Andrews, Texas" width="1108" height="360" class="hero">
+
+            <div class="info-row">
+                <section class="events">
+                    <h2>Upcoming Events</h2>
+                    <ul class="event-list">
+                        <li class="event">
+                            <h3>Andrews Founders Day Parade</h3>
+                            <p><span class="event-date" data-days-from-today="3"></span> at <span class="event-time">10:00 AM</span></p>
+                            <p>Main St, Andrews</p>
+                            <p>Join us downtown for the annual parade celebrating the founding of Andrews.</p>
+                        </li>
+                        <li class="event">
+                            <h3>Chamber Business Mixer</h3>
+                            <p><span class="event-date" data-days-from-today="7"></span> at <span class="event-time">6:00 PM</span></p>
+                            <p>Andrews Chamber of Commerce, 100 N Main St</p>
+                            <p>Network with fellow local business owners over light refreshments.</p>
+                        </li>
+                        <li class="event">
+                            <h3>Andrews Farmers Market Kickoff</h3>
+                            <p><span class="event-date" data-days-from-today="14"></span> at <span class="event-time">8:00 AM</span></p>
+                            <p>City Park, Andrews</p>
+                            <p>The season's first farmers market featuring local growers and artisans.</p>
+                        </li>
+                    </ul>
+                </section>
+                <section class="weather">
+                    <h2>Weather</h2>
+                    <div class="current-weather" aria-live="polite">
+                        <p>Current conditions in Andrews: <span id="current-temp"></span></p>
+                        <figure>
+                            <img id="weather-icon" src="" alt="" loading="lazy">
+                            <figcaption id="weather-desc"></figcaption>
+                        </figure>
+                    </div>
+                    <div class="forecast">
+                        <h3>3-Day Forecast</h3>
+                        <ul class="forecast-list" aria-live="polite">
+                            <li class="forecast-day" data-days-from-today="1">
+                                <p class="forecast-label"></p>
+                                <img class="forecast-icon" src="" alt="" loading="lazy">
+                                <p class="forecast-temp"></p>
+                                <p class="forecast-desc"></p>
+                            </li>
+                            <li class="forecast-day" data-days-from-today="2">
+                                <p class="forecast-label"></p>
+                                <img class="forecast-icon" src="" alt="" loading="lazy">
+                                <p class="forecast-temp"></p>
+                                <p class="forecast-desc"></p>
+                            </li>
+                            <li class="forecast-day" data-days-from-today="3">
+                                <p class="forecast-label"></p>
+                                <img class="forecast-icon" src="" alt="" loading="lazy">
+                                <p class="forecast-temp"></p>
+                                <p class="forecast-desc"></p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="call-to-action">
+                    <h2>Grow Your Business in Andrews</h2>
+                    <p>Join the Andrews Chamber of Commerce and connect with local business owners, customers, and resources to help your business thrive.</p>
+                    <a class="cta-button" href="join.html">Join the Chamber</a>
+                </section>
+            </div>
+            <section class="spotlights">
+                <h2>Business Spotlights</h2>
+                <div id="spotlight-cards" class="grid-view" aria-live="polite"></div>
+            </section>
+        </main>
+        <footer>
+            <div class="address">
+                <p>Andrews Chamber of Commerce</p>
+                <p>100 N Main St</p>
+                <p>Andrews, Texas 79714 USA</p>
+                <p>info@andrewstx.com</p>
+                <p>(432) 789-1000</p>
+            </div>
+            <div class="socialmedia">
+                <a href="https://youtube.com/"><img src="images/youtube.svg" alt="YouTube" width="30" height="30" loading="lazy"></a>
+                <a href="https://www.x.com/"><img src="images/twitter-x.svg" alt="X" width="30" height="30" loading="lazy"></a>
+                <a href="https://www.linkedin.com/"><img src="images/linkedin.svg" alt="LinkedIn" width="30" height="30" loading="lazy"></a>
+            </div>
+            <div class="my-data">
+                <p>WDD231 Class Project</p>
+                <p>S Lee Ward</p>
+                <p>©<span id="currentyear"></span> <span aria-hidden="true"></span> Andrews Chamber of Commerce <span aria-hidden="true"></span></p>
+                <p>Last Modification: <span id="lastModified"></span></p>
+            </div>
+        </footer>
+
+    </body>
+
+</html>

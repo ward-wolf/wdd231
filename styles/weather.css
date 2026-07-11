@@ -1,0 +1,74 @@
+:root {
+  --black: #1A1A1A;
+  --gold: #C9A84C;
+  --white: #FFFFFF;
+  --light-gray: #F5F5F5;
+  --radius: 4px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  color: var(--black);
+  background-color: var(--white);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 1.5rem;
+  background-color: var(--black);
+  color: var(--gold);
+  padding: 1rem;
+}
+
+main {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+main p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+#current-temp {
+  font-weight: 700;
+  color: var(--gold);
+  background-color: var(--black);
+  padding: 0.1rem 0.5rem;
+  border-radius: var(--radius);
+}
+
+figure {
+  display: inline-block;
+  background-color: var(--light-gray);
+  border: 1px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 0.5rem;
+}
+
+#weather-icon {
+  width: 100px;
+  height: 100px;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+footer {
+  background-color: var(--black);
+  color: var(--gold);
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}

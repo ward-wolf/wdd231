@@ -1,27 +1,27 @@
 // Create variable for URL
 
-const url = 'data/members.json';
+const url = "data/members.json";
 
 // Create cards
 
-const cards = document.querySelector('#cards');
-const gridButton = document.querySelector('#grid');
-const listButton = document.querySelector('#list');
+const cards = document.querySelector("#cards");
+const gridButton = document.querySelector("#grid");
+const listButton = document.querySelector("#list");
 
 // async function to fetch member data
 
-async function getMemberData(url) {
-    const response = await fetch(url);
+async function getMemberData(dataUrl) {
+    const response = await fetch(dataUrl);
     const data = await response.json();
 
     displayGrid(data.members);
     setActiveButton(gridButton);
 
-    gridButton.addEventListener('click', () => {
+    gridButton.addEventListener("click", () => {
         displayGrid(data.members);
         setActiveButton(gridButton);
     });
-    listButton.addEventListener('click', () => {
+    listButton.addEventListener("click", () => {
         displayList(data.members);
         setActiveButton(listButton);
     });
@@ -32,40 +32,40 @@ getMemberData(url);
 // Highlight whichever view button is active
 
 function setActiveButton(activeButton) {
-    [gridButton, listButton].forEach(btn => btn.classList.remove('active'));
-    activeButton.classList.add('active');
+    [gridButton, listButton].forEach(btn => btn.classList.remove("active"));
+    activeButton.classList.add("active");
 }
 
 // Function to display members in grid format
 
 const displayGrid = (members) => {
-    cards.innerHTML = '';
-    cards.classList.remove('list-view');
-    cards.classList.add('grid-view');
+    cards.innerHTML = "";
+    cards.classList.remove("list-view");
+    cards.classList.add("grid-view");
 
     members.forEach((member) => {
         // Create elements to add to the div.cards element
-        let card = document.createElement('section');
-        let top = document.createElement('div');
-        let image = document.createElement('img');
-        let tagline = document.createElement('p');
-        let name = document.createElement('h2');
-        let divider = document.createElement('hr');
-        let email = document.createElement('p');
-        let phone = document.createElement('p');
-        let website = document.createElement('p');
+        let card = document.createElement("section");
+        let top = document.createElement("div");
+        let image = document.createElement("img");
+        let tagline = document.createElement("p");
+        let name = document.createElement("h2");
+        let divider = document.createElement("hr");
+        let email = document.createElement("p");
+        let phone = document.createElement("p");
+        let website = document.createElement("p");
 
         // Build the image by setting all the relevant attributes
-        image.setAttribute('src', `images/${member.image}`);
-        image.setAttribute('alt', `${member.name}`);
-        image.setAttribute('loading', 'lazy');
-        image.setAttribute('width', '80');
-        image.setAttribute('height', '80');
+        image.setAttribute("src", `images/${member.image}`);
+        image.setAttribute("alt", `${member.name}`);
+        image.setAttribute("loading", "lazy");
+        image.setAttribute("width", "80");
+        image.setAttribute("height", "80");
 
         // Build the tagline paragraph, placed beside the image
-        tagline.classList.add('tagline');
+        tagline.classList.add("tagline");
         tagline.textContent = `${member.tagline}`;
-        top.classList.add('top');
+        top.classList.add("top");
         top.appendChild(image);
         top.appendChild(tagline);
 
@@ -92,27 +92,27 @@ const displayGrid = (members) => {
 // Function to display members in list format
 
 const displayList = (members) => {
-    cards.innerHTML = '';
-    cards.classList.remove('grid-view');
-    cards.classList.add('list-view');
+    cards.innerHTML = "";
+    cards.classList.remove("grid-view");
+    cards.classList.add("list-view");
 
     members.forEach((member) => {
         // Create elements to add to the div.cards element
-        let card = document.createElement('section');
-        let name = document.createElement('h2');
-        let address = document.createElement('p');
-        let phone = document.createElement('p');
-        let website = document.createElement('p');
+        let card = document.createElement("section");
+        let name = document.createElement("h2");
+        let address = document.createElement("p");
+        let phone = document.createElement("p");
+        let website = document.createElement("p");
 
         // Build the h2 content to show the business name
         name.textContent = `${member.name}`;
 
         // Build the business info paragraphs, one per column
-        address.classList.add('address');
+        address.classList.add("address");
         address.textContent = `${member.address}`;
-        phone.classList.add('phone');
+        phone.classList.add("phone");
         phone.textContent = `${member.phone}`;
-        website.classList.add('website');
+        website.classList.add("website");
         website.textContent = `${member.website}`;
 
         // Append the section(card) with the created elements
@@ -124,5 +124,3 @@ const displayList = (members) => {
         cards.appendChild(card);
     });
 }
-
-
