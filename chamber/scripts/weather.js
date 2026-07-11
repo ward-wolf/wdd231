@@ -1,6 +1,6 @@
 // select HTML elements in the document
 const currentTemp = document.querySelector("#current-temp");
-const weatherIcon = document.querySelector("#weather-icon");
+const weatherFigure = document.querySelector(".current-weather figure");
 const captionDesc = document.querySelector("#weather-desc");
 
 // URL for today's weather API
@@ -50,10 +50,15 @@ forecastFetch();
 
 function displayResults(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
-    const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     let desc = data.weather[0].description;
-    weatherIcon.setAttribute("src", iconsrc);
+
+    const weatherIcon = document.createElement("img");
+    weatherIcon.setAttribute("id", "weather-icon");
+    weatherIcon.setAttribute("src", `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`);
     weatherIcon.setAttribute("alt", desc);
+    weatherIcon.setAttribute("loading", "lazy");
+    weatherFigure.insertBefore(weatherIcon, captionDesc);
+
     captionDesc.textContent = `${desc}`;
 }
 
@@ -75,12 +80,16 @@ function displayForecast(data) {
         const entry = dayEntries.find((e) => e.dt_txt.includes("12:00:00")) || dayEntries[0];
         if (!entry) return;
 
-        const icon = dayElement.querySelector(".forecast-icon");
         const temp = dayElement.querySelector(".forecast-temp");
         const desc = dayElement.querySelector(".forecast-desc");
 
+        const icon = document.createElement("img");
+        icon.setAttribute("class", "forecast-icon");
         icon.setAttribute("src", `https://openweathermap.org/img/wn/${entry.weather[0].icon}.png`);
         icon.setAttribute("alt", entry.weather[0].description);
+        icon.setAttribute("loading", "lazy");
+        dayElement.insertBefore(icon, temp);
+
         temp.innerHTML = `${Math.round(entry.main.temp)}&deg;F`;
         desc.textContent = entry.weather[0].description;
     });
