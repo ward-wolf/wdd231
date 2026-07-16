@@ -197,6 +197,12 @@ section img {
   text-align: center;
 }
 
+.complete,
+.incomplete {
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
 .complete {
   background-color: var(--black);
   color: var(--gold);
@@ -210,6 +216,61 @@ section img {
   padding: 0.4rem 0.75rem;
   border-radius: var(--radius);
   border: var(--border-thin);
+}
+
+.complete:hover,
+.incomplete:hover {
+  background-color: var(--gold);
+  color: var(--black);
+}
+
+dialog {
+  border: var(--border-thick);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  background-color: var(--white);
+  box-shadow: 0 0 3rem rgb(0 0 0 / 30%);
+  width: 90%;
+  max-width: 600px;
+}
+
+dialog h2 {
+  margin: -1.5rem -1.5rem 0.75rem;
+}
+
+dialog h3 {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 1.1rem;
+  color: var(--black);
+  margin-bottom: 0.5rem;
+}
+
+dialog p {
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+::backdrop {
+  background-color: rgb(0 0 0 / 50%);
+}
+
+dialog button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: var(--gold);
+  color: var(--black);
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: var(--radius);
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+dialog button:hover {
+  background-color: var(--black);
+  color: var(--white);
 }
 
 /* Footer */

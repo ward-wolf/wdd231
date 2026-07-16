@@ -92,19 +92,29 @@ function setActive(activeButton) {
 
 function displayCourses(filter) {
     const filtered = courses.filter(c => filter === 'All' || c.subject === filter);
-    let html = '';
     let totalCredits = 0;
 
+    list.innerHTML = '';
+
     for (const course of filtered) {
+        let courseDiv = document.createElement('div');
+
         if (course.completed) {
-            html += `<div class="complete">✔ ${course.subject} ${course.number}: ${course.title}</div>`;
+            courseDiv.classList.add('complete');
+            courseDiv.textContent = `✔ ${course.subject} ${course.number}: ${course.title}`;
             totalCredits += course.credits;
         } else {
-            html += `<div class="incomplete">${course.subject} ${course.number}: ${course.title}</div>`;
+            courseDiv.classList.add('incomplete');
+            courseDiv.textContent = `${course.subject} ${course.number}: ${course.title}`;
         }
+
+        courseDiv.addEventListener('click', () => {
+            displayCourseDetails(course);
+        });
+
+        list.appendChild(courseDiv);
     }
 
-    list.innerHTML = html;
     courseCount.textContent = totalCredits;
 }
 

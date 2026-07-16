@@ -71,6 +71,20 @@
         flex: 1;
     }
 
+    /* Join page: form on the left, membership cards on the right */
+    .join-layout {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .join-form {
+        flex: 1;
+    }
+
+    .membership-levels {
+        flex: 1;
+    }
+
     /* Footer: address left, social media centered, my-data right */
     footer {
         display: grid;

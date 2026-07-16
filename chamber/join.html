@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Andrews Chamber of Commerce Join Page</title> 
+        <meta name="description" content="Andrews Chamber of Commerce Join Page where businesses can join the Chamber and see benefit levels.">
+        <meta name="author" content="S Lee Ward">
+        <link rel="icon" type="image/ico" href="images/andrews-logo.ico">
+
+        <meta property="og:title" content="Andrews, Texas Chamber of Commerce Join Page">
+        <meta property="og:description" content="The Andrews Chamber of Commerce Join Page. Join other businesses serving our community in West Texas.">
+        <meta property="og:url" content="https://ward-wolf.github.io/wdd231/chamber/join.html">
+        <meta property="og:image" content="https://ward-wolf.github.io/wdd231/chamber/images/andrews-logo.png">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/larger.css" media="(min-width: 768px)">
+        <script src="scripts/date.js" defer></script>
+        <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/membership.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="header-bar">
+                <img src="images/andrews-logo.svg" alt="Andrews City Logo" width="140" height="101">
+                <span>Andrews Chamber of Commerce</span>
+                <div class="header-top">
+                    <button type="button" id="menu" aria-label="Menu" aria-expanded="false" aria-controls="nav-bar">&#9776;</button>
+                </div>
+            </div>
+            <nav id="nav-bar" class="navigation">
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Join the Andrews Chamber of Commerce Today!</h1>
+
+            <div class="join-layout">
+                <form class="join-form" method="GET" action="thankyou.html">
+                    <fieldset>
+                        <legend>Your Information</legend>
+
+                        <label>First Name
+                            <input type="text" name="firstName" required title="Enter your first name" autocomplete="given-name">
+                        </label>
+
+                        <label>Last Name
+                            <input type="text" name="lastName" required title="Enter your last name" autocomplete="family-name">
+                        </label>
+
+                        <label>Organizational Title
+                            <input type="text" name="orgTitle" title="Enter your title within your organization (letters, spaces, and hyphens only, minimum 7 characters)" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}">
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Contact Information</legend>
+
+                        <label>Email Address
+                            <input type="email" name="email" required title="Enter your email address" autocomplete="email" placeholder="username@domain.com">
+                        </label>
+
+                        <label>Mobile Phone Number
+                            <input type="tel" name="mobilePhone" required title="Enter your mobile phone number" autocomplete="tel">
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Business Information</legend>
+
+                        <label>Business/Organization Name
+                            <input type="text" name="orgName" required title="Enter your business or organization's name" autocomplete="organization">
+                        </label>
+
+                        <label>Membership Level
+                            <select name="membershipLevel">
+                                <option value="">Select a membership level</option>
+                                <option value="np">Non Profit Membership</option>
+                                <option value="bronze">Bronze Membership</option>
+                                <option value="silver">Silver Membership</option>
+                                <option value="gold">Gold Membership</option>
+                            </select>
+                        </label>
+
+                        <label>Business/Organization Description
+                            <textarea name="description" title="Briefly describe your business or organization"></textarea>
+                        </label>
+                    </fieldset>
+
+                    <input type="hidden" name="timestamp" id="timestamp">
+
+                    <input type="submit" value="Join Andrews Chamber of Commerce">
+                </form>
+
+                <section class="membership-levels">
+                    <h2>Membership Levels</h2>
+                    <div class="grid-view">
+                        <section>
+                            <h3>Non Profit Membership Level</h3>
+                            <button type="button" class="cta-button" data-level="np">Learn More</button>
+                        </section>
+                        <section>
+                            <h3>Bronze Membership Level</h3>
+                            <button type="button" class="cta-button" data-level="bronze">Learn More</button>
+                        </section>
+                        <section>
+                            <h3>Silver Membership Level</h3>
+                            <button type="button" class="cta-button" data-level="silver">Learn More</button>
+                        </section>
+                        <section>
+                            <h3>Gold Membership Level</h3>
+                            <button type="button" class="cta-button" data-level="gold">Learn More</button>
+                        </section>
+                    </div>
+                </section>
+            </div>
+
+            <dialog id="membership-details"></dialog>
+        </main>
+        <footer>
+            <div class="address">
+                <p>Andrews Chamber of Commerce</p>
+                <p>100 N Main St</p>
+                <p>Andrews, Texas 79714 USA</p>
+                <p>info@andrewstx.com</p>
+                <p>(432) 789-1000</p>
+            </div>
+            <div class="socialmedia">
+                <a href="https://youtube.com/"><img src="images/youtube.svg" alt="YouTube" width="30" height="30" loading="lazy"></a>
+                <a href="https://www.x.com/"><img src="images/twitter-x.svg" alt="X" width="30" height="30" loading="lazy"></a>
+                <a href="https://www.linkedin.com/"><img src="images/linkedin.svg" alt="LinkedIn" width="30" height="30" loading="lazy"></a>
+            </div>
+            <div class="my-data">
+                <p>WDD231 Class Project</p>
+                <p>S Lee Ward</p>
+                <p>©<span id="currentyear"></span> <span aria-hidden="true"></span> Andrews Chamber of Commerce <span aria-hidden="true"></span></p>
+                <p>Last Modification: <span id="lastModified"></span></p>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
