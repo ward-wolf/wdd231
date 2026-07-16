@@ -5,8 +5,8 @@
   --white: #FFFFFF;
   --ink: #1A1A1A;
   --tagline-gray: #47443A;
-  --shadow: rgb(0 0 0 / 30%);
-  --backdrop: rgb(0 0 0 / 50%);
+  --shadow: #0000004C;
+  --backdrop: #00000080;
   --radius: 4px;
   --border-thin: 1px solid var(--red);
   --border-thick: 3px solid var(--gold);
@@ -115,11 +115,7 @@ header .header-top button {
   border-radius: var(--radius);
 }
 
-.navigation a:hover {
-  background-color: var(--gold);
-  color: var(--red);
-}
-
+.navigation a:hover,
 .navigation li.current a {
   background-color: var(--gold);
   color: var(--red);
@@ -309,7 +305,8 @@ dialog button:hover {
   max-width: 500px;
 }
 
-#welcome h2 {
+#welcome h2,
+.spotlights h2 {
   margin-bottom: 0.75rem;
 }
 
@@ -425,12 +422,6 @@ dialog button:hover {
   text-decoration: none;
   font-weight: 700;
   padding: 0.6rem 1.5rem;
-}
-
-/* Spotlights */
-
-.spotlights h2 {
-  margin-bottom: 0.75rem;
 }
 
 /* Grid / List toggle buttons */
