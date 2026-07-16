@@ -4,6 +4,9 @@
   --gold-light: #FFF7D6;
   --white: #FFFFFF;
   --ink: #1A1A1A;
+  --tagline-gray: #47443A;
+  --shadow: rgb(0 0 0 / 30%);
+  --backdrop: rgb(0 0 0 / 50%);
   --radius: 4px;
   --border-thin: 1px solid var(--red);
   --border-thick: 3px solid var(--gold);
@@ -186,7 +189,7 @@ h3 {
   border: var(--border-thin);
   border-radius: var(--radius);
   padding: 0.5rem;
-  font-family: 'Lato', Arial, sans-serif;
+  font-family: inherit;
   font-size: 1rem;
   color: var(--ink);
 }
@@ -207,17 +210,8 @@ h3 {
 .join-form input[type="submit"] {
   width: auto;
   align-self: center;
-  background-color: var(--gold);
-  color: var(--red);
-  border: none;
   font-weight: 700;
   padding: 0.6rem 1.5rem;
-  cursor: pointer;
-}
-
-.join-form input[type="submit"]:hover {
-  background-color: var(--red);
-  color: var(--gold);
 }
 
 .membership-levels h3 {
@@ -262,6 +256,39 @@ h3 {
   }
 }
 
+/* Card box: shared look for content boxes across the site */
+
+.info-row > section,
+.grid-view section,
+#welcome,
+.call-to-action {
+  background-color: var(--white);
+  border: var(--border-thin);
+  border-radius: var(--radius);
+}
+
+/* Button: shared look for gold/red buttons across the site */
+
+.cta-button,
+.grid-list-buttons button,
+.join-form input[type="submit"],
+dialog button {
+  background-color: var(--gold);
+  color: var(--red);
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.cta-button:hover,
+.grid-list-buttons button:hover,
+.grid-list-buttons button.active,
+.join-form input[type="submit"]:hover,
+dialog button:hover {
+  background-color: var(--red);
+  color: var(--gold);
+}
+
 /* Home page: events / weather / call-to-action stack on mobile, row on larger screens */
 
 .info-row {
@@ -272,18 +299,12 @@ h3 {
 }
 
 .info-row > section {
-  background-color: var(--white);
-  border: var(--border-thin);
-  border-radius: var(--radius);
   padding: 1rem;
 }
 
 /* Thank you page: submitted application details */
 
 #welcome {
-  background-color: var(--white);
-  border: var(--border-thin);
-  border-radius: var(--radius);
   padding: 1.5rem;
   max-width: 500px;
 }
@@ -321,7 +342,6 @@ h3 {
 
 .event p {
   font-size: 0.85rem;
-  margin: 0;
 }
 
 /* Weather */
@@ -374,17 +394,14 @@ h3 {
 .forecast-label {
   font-weight: 700;
   font-size: 0.8rem;
-  margin: 0;
 }
 
 .forecast-temp {
   font-size: 0.85rem;
-  margin: 0;
 }
 
 .forecast-desc {
   font-size: 0.75rem;
-  margin: 0;
 }
 
 /* Call to action: overlaps the bottom edge of the hero image */
@@ -393,12 +410,9 @@ h3 {
   position: relative;
   max-width: 340px;
   margin: -40px auto 1.5rem;
-  background-color: var(--white);
-  border: var(--border-thin);
-  border-radius: var(--radius);
   padding: 1.5rem;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 12px var(--shadow);
 }
 
 .call-to-action h2 {
@@ -408,17 +422,9 @@ h3 {
 .cta-button {
   display: inline-block;
   margin-top: 0.75rem;
-  background-color: var(--gold);
-  color: var(--red);
   text-decoration: none;
   font-weight: 700;
   padding: 0.6rem 1.5rem;
-  border-radius: var(--radius);
-}
-
-.cta-button:hover {
-  background-color: var(--red);
-  color: var(--gold);
 }
 
 /* Spotlights */
@@ -437,20 +443,9 @@ h3 {
 
 .grid-list-buttons button {
   flex: 1;
-  background-color: var(--gold);
-  color: var(--red);
-  border: none;
   padding: 0.5rem 1rem;
-  border-radius: var(--radius);
-  font-family: 'Lato', Arial, sans-serif;
+  font-family: inherit;
   font-size: 1rem;
-  cursor: pointer;
-}
-
-.grid-list-buttons button:hover,
-.grid-list-buttons button.active {
-  background-color: var(--red);
-  color: var(--gold);
 }
 
 /* Member cards: grid view */
@@ -465,9 +460,6 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  background-color: var(--white);
-  border: var(--border-thin);
-  border-radius: var(--radius);
   padding: 1rem;
 }
 
@@ -488,14 +480,12 @@ h3 {
 
 .grid-view .tagline {
   font-style: italic;
-  color: #47443a;
-  margin: 0;
+  color: var(--tagline-gray);
 }
 
 .grid-view h2,
 .grid-view h3 {
   font-size: 1.15rem;
-  margin: 0;
 }
 
 .grid-view hr {
@@ -503,12 +493,10 @@ h3 {
   height: 0;
   border: none;
   border-top: 2px solid var(--red);
-  margin: 0;
 }
 
 .grid-view p {
   font-size: 0.9rem;
-  margin: 0;
   overflow-wrap: break-word;
 }
 
@@ -586,7 +574,7 @@ dialog {
   border-radius: var(--radius);
   padding: 1.5rem;
   background-color: var(--white);
-  box-shadow: 0 0 3rem rgb(0 0 0 / 30%);
+  box-shadow: 0 0 3rem var(--shadow);
   width: 90%;
   max-width: 600px;
 }
@@ -608,24 +596,14 @@ dialog ul {
 }
 
 ::backdrop {
-  background-color: rgb(0 0 0 / 50%);
+  background-color: var(--backdrop);
 }
 
 dialog button {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background-color: var(--gold);
-  color: var(--red);
-  border: none;
   padding: 0.4rem 1rem;
-  border-radius: var(--radius);
-  font-family: 'Lato', Arial, sans-serif;
+  font-family: inherit;
   font-size: 1rem;
-  cursor: pointer;
-}
-
-dialog button:hover {
-  background-color: var(--red);
-  color: var(--gold);
 }
