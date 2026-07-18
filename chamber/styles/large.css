@@ -1,0 +1,11 @@
+@media screen and (min-width: 1025px) {
+
+    /* Discover page: photo spans the full width on top, name/location split the row below it */
+    #places-cards .place-grid {
+        grid-template-areas:
+            "photo photo"
+            "name location"
+            "description description";
+    }
+
+}

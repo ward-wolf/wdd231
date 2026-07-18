@@ -18,6 +18,15 @@
   box-sizing: border-box;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
 body {
   font-family: 'Lato', Arial, sans-serif;
   color: var(--ink);
@@ -131,6 +140,12 @@ h1 {
 
 h2 {
   font-size: 1.2rem;
+  color: var(--red);
+}
+
+.section-label {
+  font-size: 1.2rem;
+  font-weight: 700;
   color: var(--red);
 }
 
@@ -489,6 +504,69 @@ dialog button:hover {
 .grid-view p {
   font-size: 0.9rem;
   overflow-wrap: break-word;
+}
+
+/* Discover page: place cards sized to fit full-width images */
+
+#places-cards.grid-view {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#places-cards .place-grid {
+  display: grid;
+  grid-template-areas:
+    "name"
+    "photo"
+    "description"
+    "location";
+  gap: 0.5rem;
+}
+
+#places-cards .place-grid h2 {
+  grid-area: name;
+  text-align: center;
+}
+
+#places-cards .place-grid figure {
+  grid-area: photo;
+}
+
+#places-cards .place-grid p {
+  grid-area: description;
+}
+
+#places-cards .place-grid address {
+  grid-area: location;
+}
+
+#places-cards figure {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#places-cards img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius);
+}
+
+#places-cards figcaption {
+  font-size: 0.75rem;
+  color: var(--tagline-gray);
+}
+
+#places-cards summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#places-cards .cta-button {
+  align-self: center;
+}
+
+#last-visit {
+  margin-top: 1rem;
 }
 
 /* Member cards: list view */

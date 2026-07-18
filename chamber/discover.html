@@ -4,14 +4,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Andrews Chamber of Commerce Directory</title> 
-        <meta name="description" content="Andrews Chamber of Commerce Directory Page featuring information about our amazing community supporters. ">
+        <title>Andrews Chamber of Commerce Discover Page</title> 
+        <meta name="description" content="Andrews Chamber of Commerce Discover Page to help everyone discover this amazing part of West Texas.">
         <meta name="author" content="S Lee Ward">
         <link rel="icon" type="image/ico" href="images/andrews-logo.ico">
 
-        <meta property="og:title" content="Directory for Andrews Chamber of Commerce">
-        <meta property="og:description" content="Directory for members of the Andrews Chamber of Commerce. These companies will help you settle in our community.">
-        <meta property="og:url" content="https://ward-wolf.github.io/wdd231/chamber/directory.html">
+        <meta property="og:title" content="Andrews, Texas Chamber of Commerce Discover Page">
+        <meta property="og:description" content="The Andrews Chamber of Commerce Discover Page. Discover why you should explore our beautiful area of Texas.">
+        <meta property="og:url" content="https://ward-wolf.github.io/wdd231/chamber/discover.html">
         <meta property="og:image" content="https://ward-wolf.github.io/wdd231/chamber/images/andrews-logo.png">
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +23,8 @@
         <link rel="stylesheet" href="styles/large.css" media="(min-width: 1025px)">
         <script src="scripts/date.js" defer></script>
         <script src="scripts/navigation.js" defer></script>
-        <script src="scripts/directory.js" defer></script>
+        <script type="module" src="scripts/discover.js" defer></script>
+        <script src="scripts/lastvisit.js" defer></script>
     </head>
 
     <body>
@@ -45,14 +46,14 @@
             </nav>
         </header>
         <main>
-            <h1>Directory</h1>
-            <section class="members">
-                <div class="grid-list-buttons">
-                    <button type="button" id="grid">Grid</button>
-                    <button type="button" id="list">List</button>
-                </div>
-                <div id="cards" aria-live="polite"></div>
+            <h1>Discover West Texas</h1>
+
+            <section class="places">
+                <p class="section-label">Places to Visit</p>
+                <div id="places-cards" class="grid-view" aria-live="polite"></div>
             </section>
+
+            <h3 id="last-visit"></h3>
         </main>
         <footer>
             <div class="address">

@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 641px) {
 
     /* Hide hamburger, show nav on the right side of the header */
     header {
@@ -98,6 +98,42 @@
 
     footer .my-data {
         text-align: right;
+    }
+
+    /* Discover page: delay wrapping to two columns of cards until there's room to spare */
+    #places-cards.grid-view {
+        grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    }
+
+    /* Discover page: place cards use two columns, photo on the left */
+    #places-cards .place-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "photo name"
+            "photo description"
+            "photo location";
+        align-items: start;
+    }
+
+    #places-cards .place-grid h2 {
+        text-align: left;
+    }
+
+    /* Discover page: image hover effect (medium screens and up only) */
+    #places-cards img {
+        transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+
+    #places-cards img:hover {
+        box-shadow: 0 0 0 3px var(--red);
+    }
+
+}
+
+@media screen and (min-width: 641px) and (prefers-reduced-motion: no-preference) {
+
+    #places-cards img:hover {
+        transform: scale(1.03);
     }
 
 }

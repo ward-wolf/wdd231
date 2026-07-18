@@ -49,7 +49,10 @@ const membershipLevels = {
 
 function displayMembershipDetails(levelKey) {
     const level = membershipLevels[levelKey];
-    const benefitsList = level.benefits.map((benefit) => `<li>${benefit}</li>`).join('');
+    let benefitsList = '';
+    level.benefits.forEach((benefit) => {
+        benefitsList += `<li>${benefit}</li>`;
+    });
 
     membershipDetails.innerHTML = `
         <button id="closeMembershipModal">Close</button>

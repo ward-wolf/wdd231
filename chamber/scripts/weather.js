@@ -77,7 +77,10 @@ function displayForecast(data) {
 
         // Pick the forecast entry closest to noon on the target date
         const dayEntries = data.list.filter((entry) => entry.dt_txt.startsWith(targetDateString));
-        const entry = dayEntries.find((e) => e.dt_txt.includes("12:00:00")) || dayEntries[0];
+        let entry = dayEntries.find((e) => e.dt_txt.includes("12:00:00"));
+        if (!entry) {
+            entry = dayEntries[0];
+        }
         if (!entry) return;
 
         const temp = dayElement.querySelector(".forecast-temp");
