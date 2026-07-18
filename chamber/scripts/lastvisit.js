@@ -11,7 +11,12 @@ if (!lastVisit) {
     if (daysSinceVisit < 1) {
         lastVisitMessage.textContent = "Back so soon! Awesome!";
     } else {
-        const dayWord = "day" + (daysSinceVisit === 1 ? "" : "s"); //use a ternary to write day or days as needed
+        let dayWord;
+        if (daysSinceVisit === 1) {
+            dayWord = `day`;
+        } else {
+            dayWord = `days`;
+        }
         lastVisitMessage.textContent = `You last visited ${daysSinceVisit} ${dayWord} ago.`;
     }
 }
