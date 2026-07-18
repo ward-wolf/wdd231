@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="styles/large.css" media="(min-width: 1025px)">
         <script src="scripts/date.js" defer></script>
         <script src="scripts/navigation.js" defer></script>
-        <script type="module" src="scripts/discover.js" defer></script>
+        <script type="module" src="scripts/discover.js"></script>
         <script src="scripts/lastvisit.js" defer></script>
     </head>
 
@@ -48,12 +48,12 @@
         <main>
             <h1>Discover West Texas</h1>
 
-            <section class="places">
+            <div class="places">
                 <p class="section-label">Places to Visit</p>
                 <div id="places-cards" class="grid-view" aria-live="polite"></div>
-            </section>
+            </div>
 
-            <h3 id="last-visit"></h3>
+            <h2 id="last-visit">Loading your last visit...</h2>
         </main>
         <footer>
             <div class="address">
