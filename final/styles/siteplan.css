@@ -1,0 +1,133 @@
+:root {
+    --black: #1A1A1A;
+    --gold: #C9A84C;
+    --white: #FFFFFF;
+    --light-gray: #F5F5F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 1rem;
+    color: var(--black);
+    background-color: var(--light-gray);
+}
+
+/* ---- Header ---- */
+header {
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 1.5rem 2rem;
+}
+
+header h1 {
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+
+/* ---- Main ---- */
+main {
+    max-width: 860px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 0 1.5rem 3rem;
+}
+
+/* ---- Logo + Site Name ---- */
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.logo-section img {
+    width: 160px;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* ---- Headings ---- */
+h2 {
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--black);
+    border-bottom: 2px solid var(--gold);
+    padding-bottom: 0.3rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.logo-section h2 {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.75rem;
+}
+
+/* ---- Body Text ---- */
+p {
+    line-height: 1.7;
+    margin-bottom: 0.75rem;
+}
+
+ul {
+    margin: 0.5rem 0 0.75rem 1.5rem;
+}
+
+li {
+    line-height: 1.7;
+    margin-bottom: 0.4rem;
+}
+
+/* ---- Wireframes ---- */
+.wireframes {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    align-items: flex-start;
+}
+
+figure {
+    flex: 1;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid var(--gold);
+    border-radius: 4px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--black);
+    margin-top: 0.4rem;
+    font-weight: 700;
+}
+
+/* ---- Footer ---- */
+footer {
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
