@@ -531,6 +531,7 @@ dialog button {
 }
 
 .success-grid {
+    display: block;
     grid-template-columns: repeat(5, 1fr);
     gap: 0.75rem;
     padding: 1rem;
@@ -544,6 +545,7 @@ dialog button {
 }
 
 .success-grid figure {
+    display: none;
     flex-direction: column;
     text-align: center;
     border: var(--border-thick);
@@ -598,14 +600,6 @@ dialog button {
 
 .success-carousel {
     position: relative;
-}
-
-.success-grid {
-    display: block;
-}
-
-.success-grid figure {
-    display: none;
 }
 
 .success-grid figure.active {
