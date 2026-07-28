@@ -1,0 +1,22 @@
+[
+    {
+        "level": "cs",
+        "track": "Computer Science",
+        "description": "Learn to design, build, and maintain the software systems that power everything from websites to mobile apps. You'll build a strong foundation in programming, data structures, databases, and the modern development practices working software engineers use every day."
+    },
+    {
+        "level": "ai",
+        "track": "Artificial Intelligence",
+        "description": "Explore how machines can reason, understand language, see, and make decisions. You'll study search algorithms, knowledge representation, natural language processing, and the ethical questions that come with building intelligent systems."
+    },
+    {
+        "level": "ml",
+        "track": "Machine Learning",
+        "description": "Learn how to build models that find patterns in data and make predictions. You'll cover supervised and unsupervised learning, neural networks, and how to take a model from a notebook into a real, working product."
+    },
+    {
+        "level": "qc",
+        "track": "Quantum Computing",
+        "description": "Discover how qubits, superposition, and entanglement can be harnessed to solve problems beyond the reach of classical computers. You'll learn quantum programming, quantum algorithms, and the hardware that makes it all possible."
+    }
+]

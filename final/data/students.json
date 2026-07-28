@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Amanda",
+        "track": "CS",
+        "image": "images/amanda.webp",
+        "country": "Brazil",
+        "oldJob": "Retail Cashier",
+        "newJob": "Junior Software Developer",
+        "review": "NTA gave me the tools and confidence to leave retail behind and build a real career in software. I'm so grateful for this program."
+    },
+    {
+        "name": "Jenia",
+        "track": "AI",
+        "image": "images/jenia.webp",
+        "country": "Kazakhstan",
+        "oldJob": "Bank Teller",
+        "newJob": "AI Solutions Analyst",
+        "review": "I never thought someone from my background could work in AI. NTA made it possible without me having to move abroad or go into debt."
+    },
+    {
+        "name": "Maggie",
+        "track": "ML",
+        "image": "images/maggie.webp",
+        "country": "Colombia",
+        "oldJob": "Call Center Representative",
+        "newJob": "Machine Learning Engineer",
+        "review": "The flexibility of NTA let me study around my work schedule. I finished the program and doubled my income within a year."
+    },
+    {
+        "name": "Maryna",
+        "track": "QC",
+        "image": "images/maryna.webp",
+        "country": "South Africa",
+        "oldJob": "Retail Sales Associate",
+        "newJob": "Quantum Software Developer",
+        "review": "NTA opened doors I didn't know existed. Quantum computing felt impossible until I found this program."
+    },
+    {
+        "name": "Mukmic",
+        "track": "CS",
+        "image": "images/mukmic.webp",
+        "country": "Thailand",
+        "oldJob": "Hotel Front Desk Clerk",
+        "newJob": "Software Engineer",
+        "review": "I'm proud to say I traded a front desk job for a career in software. NTA changed the direction of my whole life."
+    },
+    {
+        "name": "Nadya",
+        "track": "AI",
+        "image": "images/nadya.webp",
+        "country": "Armenia",
+        "oldJob": "Seamstress",
+        "newJob": "AI Research Assistant",
+        "review": "The staff at NTA genuinely cared about my progress. I finished with real skills and a job offer before graduation."
+    },
+    {
+        "name": "Olya",
+        "track": "ML",
+        "image": "images/olya.webp",
+        "country": "Bulgaria",
+        "oldJob": "Waitress",
+        "newJob": "Predictive Analytics Specialist",
+        "review": "NTA is affordable, flexible, and actually prepares you for real work. I recommend it to everyone I know."
+    },
+    {
+        "name": "Paulina",
+        "track": "QC",
+        "image": "images/paulina.webp",
+        "country": "Moldova",
+        "oldJob": "Farm Worker",
+        "newJob": "Quantum Computing Analyst",
+        "review": "I grew up on a farm and never imagined working in tech. NTA made that leap possible."
+    },
+    {
+        "name": "Rana",
+        "track": "CS",
+        "image": "images/rana.webp",
+        "country": "Egypt",
+        "oldJob": "Tour Guide Assistant",
+        "newJob": "Backend Developer",
+        "review": "NTA gave me a future I couldn't have built any other way. I'm forever grateful for this program."
+    },
+    {
+        "name": "Ruqing",
+        "track": "AI",
+        "image": "images/ruqing.webp",
+        "country": "Taiwan",
+        "oldJob": "Factory Assembly Line Worker",
+        "newJob": "AI Product Specialist",
+        "review": "Leaving factory work for a career I actually love still feels surreal. Thank you, NTA."
+    },
+    {
+        "name": "Sara",
+        "track": "ML",
+        "image": "images/sara.webp",
+        "country": "Argentina",
+        "oldJob": "Retail Store Clerk",
+        "newJob": "Data Scientist",
+        "review": "NTA's pace let me learn as fast as I could handle. I finished faster than I ever expected."
+    },
+    {
+        "name": "Sarah",
+        "track": "QC",
+        "image": "images/sarah.webp",
+        "country": "Greece",
+        "oldJob": "Souvenir Shop Assistant",
+        "newJob": "Quantum Software Engineer",
+        "review": "I went from folding souvenirs to building software. NTA made that possible in less than a year."
+    },
+    {
+        "name": "Victoria",
+        "track": "CS",
+        "image": "images/victoria.webp",
+        "country": "Ukraine",
+        "oldJob": "Administrative Assistant",
+        "newJob": "Software Developer",
+        "review": "NTA gave me stability and a real career during such an uncertain time for my country. I'm endlessly thankful."
+    },
+    {
+        "name": "Ydenne",
+        "track": "AI",
+        "image": "images/ydenne.webp",
+        "country": "Philippines",
+        "oldJob": "Call Center Agent",
+        "newJob": "AI Business Analyst",
+        "review": "The personalized feedback at NTA helped me grow faster than I ever could have on my own."
+    },
+    {
+        "name": "Yssa",
+        "track": "ML",
+        "image": "images/yssa.webp",
+        "country": "Indonesia",
+        "oldJob": "Market Vendor",
+        "newJob": "Machine Learning Specialist",
+        "review": "NTA proved that where you start doesn't determine where you can go. I'm living proof of that now."
+    },
+    {
+        "name": "Kristina",
+        "track": "QC",
+        "image": "images/kristina.webp",
+        "country": "Poland",
+        "oldJob": "Grocery Store Clerk",
+        "newJob": "Quantum Applications Supervisor",
+        "review": "I had no chance at university, but NTA gave me a whole new career in just six months. I'm still amazed by how far I've come."
+    }
+]

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nauvoo Tech Academy Home Page</title> 
+        <meta name="description" content="Nauvoo Tech Academy Home Page featuring information on tuition, our program, students, and classes.">
+        <meta name="author" content="S Lee Ward">
+        <link rel="icon" type="image/ico" href="images/nta-logo.ico">
+
+        <meta property="og:title" content="Nauvoo Tech Academy Home Page">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Nauvoo Tech Academy Home Page. Welcoming you to AI-powered university level education.">
+        <meta property="og:url" content="https://ward-wolf.github.io/wdd231/final/index.html">
+        <meta property="og:image" content="https://ward-wolf.github.io/wdd231/final/images/nta-logo.png">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/medium.css" media="(min-width: 641px)">
+        <link rel="stylesheet" href="styles/large.css" media="(min-width: 1025px)">
+        <script src="scripts/date.js" defer></script>
+        <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/spotlights.mjs" type="module"></script>
+        <script src="scripts/currency.mjs" type="module"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="header-bar">
+                <img src="images/nta-logo.svg" alt="Nauvoo Tech Logo" width="150" height="50">
+                <span>Nauvoo Tech Academy</span>
+                <div class="header-top">
+                    <button type="button" id="menu" aria-label="Menu" aria-expanded="false" aria-controls="nav-bar">&#9776;</button>
+                </div>
+            </div>
+            <nav id="nav-bar" class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="enroll.html">Enroll</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Welcome to Nauvoo Tech!</h1>
+
+            <picture>
+                <source srcset="images/small-quantum.webp" media="(max-width: 599px)">
+                <img src="images/large-quantum.webp" alt="Quantum Computer Network" width="550" height="424" fetchpriority="high" class="hero-image">
+            </picture>
+
+            <section class="call-to-action">
+                <h2>Transform Your Future!</h2>
+                <p>Join Nauvoo Tech and discover AI-powered education that is better, faster, and cheaper!</p>
+                <a class="cta-button" href="enroll.html">Enroll now!</a>
+            </section>
+
+            <div class="info-row">
+                <section class="events">
+                    <h2>Upcoming Events</h2>
+                    <ul class="event-list">
+                        <li class="event">
+                            <h3>Intro to Machine Learning Workshop</h3>
+                            <p><span class="event-date" data-days-from-today="3"></span> at <span class="event-time">4:00 PM CST</span></p>
+                            <p>Live Online Webinar</p>
+                            <p>A hands-on introduction to building and training your first neural network, open to prospective and current students.</p>
+                        </li>
+                        <li class="event">
+                            <h3>Quantum Computing Guest Lecture</h3>
+                            <p><span class="event-date" data-days-from-today="7"></span> at <span class="event-time">6:00 PM CST</span></p>
+                            <p>Live Online Webinar</p>
+                            <p>Industry researchers break down qubits, superposition, and how quantum algorithms could reshape computing.</p>
+                        </li>
+                        <li class="event">
+                            <h3>AI Ethics & Society Panel</h3>
+                            <p><span class="event-date" data-days-from-today="14"></span> at <span class="event-time">5:00 PM CST</span></p>
+                            <p>Live Online Webinar</p>
+                            <p>Faculty and industry guests discuss bias, privacy, and responsible deployment of AI systems.</p>
+                        </li>
+                    </ul>
+                </section>
+                <section class="tuition">
+                    <h2>Total Cost</h2>
+                    <div class="current-tuition" aria-live="polite">
+                        <p>Full cost of our program: <span id="current-tuition"></span></p>
+                        <p>*Based on today's exchange rate.*</p>
+                        <p>Compare our cost to any other program! AI-powered education means more affordable education!</p>
+                        <div class="tuition-quote">
+                            <img src="images/amanda2.webp" alt="Amanda, an NTA graduate" width="800" height="800" loading="lazy">
+                            <blockquote>"I couldn't believe how affordable NTA was compared to a traditional degree. It's the reason I could finally get started."<cite>— Amanda</cite></blockquote>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section class="spotlights">
+                <h2>Student Spotlights</h2>
+                <div id="spotlight-cards" class="grid-view" aria-live="polite"></div>
+            </section>
+        </main>
+        <footer>
+            <div class="address">
+                <p>Nauvoo Tech Academy</p>
+                <p>Rolex Tower Suite 42B</p>
+                <p>Sheikh Zayed Road</p>
+                <p>Dubai, Dubai UAE</p>
+                <p>info@nauvootech.edu</p>
+                <p>+971-4-NTA-TECH (4-682-8324)</p>
+            </div>
+            <div class="socialmedia">
+                <a href="https://youtube.com/"><img src="images/youtube.svg" alt="YouTube" width="30" height="30" loading="lazy"></a>
+                <a href="https://www.x.com/"><img src="images/twitter-x.svg" alt="X" width="30" height="30" loading="lazy"></a>
+                <a href="https://www.linkedin.com/"><img src="images/linkedin.svg" alt="LinkedIn" width="30" height="30" loading="lazy"></a>
+            </div>
+            <div class="my-data">
+                <p><a href="https://youtube.com">WDD231 Final Video</a></p>
+                <p>S Lee Ward</p>
+                <p>©<span id="currentyear"></span> <span aria-hidden="true"></span> Nauvoo Tech Academy <span aria-hidden="true"></span></p>
+                <p>Last Modification: <span id="lastModified"></span></p>
+            </div>
+        </footer>
+
+    </body>
+
+</html>

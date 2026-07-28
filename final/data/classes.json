@@ -1,0 +1,1003 @@
+[
+    {
+        "track": "Computer Science",
+        "code": "CS101",
+        "name": "Introduction to Programming",
+        "description": "Learn the fundamentals of writing code: variables, control flow, functions, and how to break a problem down into steps a computer can follow.",
+        "review": {
+            "name": "Amanda",
+            "image": "images/amanda.webp",
+            "comment": "Introduction to Programming completely changed how I think about this field. The instructors broke it down so it finally clicked for me."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS102",
+        "name": "Data Structures and Algorithms",
+        "description": "Study arrays, linked lists, stacks, queues, trees, and graphs, and learn how to choose the right structure and algorithm for a given problem.",
+        "review": {
+            "name": "Jenia",
+            "image": "images/jenia.webp",
+            "comment": "I was intimidated at first, but Data Structures and Algorithms made everything approachable step by step. I actually look forward to the assignments now."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS103",
+        "name": "Object-Oriented Programming",
+        "description": "Design programs around classes and objects, covering encapsulation, inheritance, and polymorphism through hands-on projects.",
+        "review": {
+            "name": "Maggie",
+            "image": "images/maggie.webp",
+            "comment": "The hands-on projects in Object-Oriented Programming gave me real confidence. I use what I learned in this class every day now."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS104",
+        "name": "Computer Systems and Architecture",
+        "description": "Explore how hardware and software interact, from CPU instructions and memory to how a program actually runs on a machine.",
+        "review": {
+            "name": "Maryna",
+            "image": "images/maryna.webp",
+            "comment": "Computer Systems and Architecture is one of the best classes in the program. I went in knowing almost nothing and came out building my own projects."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS105",
+        "name": "Operating Systems",
+        "description": "Understand how operating systems manage processes, memory, and files, including concurrency and scheduling.",
+        "review": {
+            "name": "Mukmic",
+            "image": "images/mukmic.webp",
+            "comment": "I loved the pace of Operating Systems. It let me dig deep without ever feeling rushed or left behind."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS106",
+        "name": "Databases and Data Management",
+        "description": "Design relational databases, write SQL queries, and learn principles of data normalization and integrity.",
+        "review": {
+            "name": "Nadya",
+            "image": "images/nadya.webp",
+            "comment": "Thanks to Databases and Data Management, it all finally makes sense to me. The feedback on my assignments was fast and specific."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS107",
+        "name": "Web Development Fundamentals",
+        "description": "Build responsive websites using HTML, CSS, and JavaScript, and learn how browsers render and run web applications.",
+        "review": {
+            "name": "Olya",
+            "image": "images/olya.webp",
+            "comment": "Web Development Fundamentals pushed me further than I expected. It felt practical the whole way through, not just theoretical."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS108",
+        "name": "Software Engineering Principles",
+        "description": "Learn the software development lifecycle, requirements gathering, and best practices for building maintainable software as a team.",
+        "review": {
+            "name": "Paulina",
+            "image": "images/paulina.webp",
+            "comment": "I recommend Software Engineering Principles to everyone starting out. The way they teach this material is unlike any class I've taken before."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS109",
+        "name": "Computer Networks",
+        "description": "Study how data travels across networks, covering protocols, the client-server model, and the basics of the internet.",
+        "review": {
+            "name": "Rana",
+            "image": "images/rana.webp",
+            "comment": "Before taking Computer Networks, this felt completely out of reach. Now it's one of my favorite subjects in the whole program."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS110",
+        "name": "Version Control and Team Collaboration",
+        "description": "Master Git and collaborative workflows used by professional development teams, including branching, code review, and merge conflicts.",
+        "review": {
+            "name": "Ruqing",
+            "image": "images/ruqing.webp",
+            "comment": "Version Control and Team Collaboration gave me a portfolio piece I'm proud of. Working through it hands-on made all the difference."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS111",
+        "name": "Algorithms and Complexity Analysis",
+        "description": "Analyze algorithm efficiency using Big-O notation and learn classic algorithm design techniques like divide-and-conquer and dynamic programming.",
+        "review": {
+            "name": "Sara",
+            "image": "images/sara.webp",
+            "comment": "Algorithms and Complexity Analysis completely changed how I think about this field. The instructors broke it down so it finally clicked for me."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS112",
+        "name": "Mobile App Development",
+        "description": "Design and build mobile applications, covering user interface design, app architecture, and deployment to app stores.",
+        "review": {
+            "name": "Sarah",
+            "image": "images/sarah.webp",
+            "comment": "I was intimidated at first, but Mobile App Development made everything approachable step by step. I actually look forward to the assignments now."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS113",
+        "name": "Cloud Computing Fundamentals",
+        "description": "Learn how to deploy and scale applications using cloud platforms, covering virtual machines, storage, and managed services.",
+        "review": {
+            "name": "Victoria",
+            "image": "images/victoria.webp",
+            "comment": "The hands-on projects in Cloud Computing Fundamentals gave me real confidence. I use what I learned in this class every day now."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS114",
+        "name": "Cybersecurity Fundamentals",
+        "description": "Understand common security threats and defenses, including encryption basics, secure coding practices, and how to protect user data.",
+        "review": {
+            "name": "Ydenne",
+            "image": "images/ydenne.webp",
+            "comment": "Cybersecurity Fundamentals is one of the best classes in the program. I went in knowing almost nothing and came out building my own projects."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS115",
+        "name": "API Design and Development",
+        "description": "Design and build RESTful APIs that let applications talk to each other, including authentication and documentation.",
+        "review": {
+            "name": "Yssa",
+            "image": "images/yssa.webp",
+            "comment": "I loved the pace of API Design and Development. It let me dig deep without ever feeling rushed or left behind."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS116",
+        "name": "DevOps and Continuous Deployment",
+        "description": "Learn to automate testing and deployment pipelines so code changes can be shipped to users quickly and safely.",
+        "review": {
+            "name": "Amanda",
+            "image": "images/amanda.webp",
+            "comment": "Thanks to DevOps and Continuous Deployment, it all finally makes sense to me. The feedback on my assignments was fast and specific."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS117",
+        "name": "Software Testing and Quality Assurance",
+        "description": "Write unit, integration, and end-to-end tests, and learn strategies for catching bugs before they reach users.",
+        "review": {
+            "name": "Jenia",
+            "image": "images/jenia.webp",
+            "comment": "Software Testing and Quality Assurance pushed me further than I expected. It felt practical the whole way through, not just theoretical."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS118",
+        "name": "Human-Computer Interaction",
+        "description": "Study how to design software interfaces that are intuitive and accessible, grounded in real usability principles.",
+        "review": {
+            "name": "Maggie",
+            "image": "images/maggie.webp",
+            "comment": "I recommend Human-Computer Interaction to everyone starting out. The way they teach this material is unlike any class I've taken before."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS119",
+        "name": "Capstone Project I: Application Development",
+        "description": "Plan and build a full application from scratch, applying everything learned throughout the Computer Science track.",
+        "review": {
+            "name": "Maryna",
+            "image": "images/maryna.webp",
+            "comment": "Before taking Capstone Project I: Application Development, this felt completely out of reach. Now it's one of my favorite subjects in the whole program."
+        }
+    },
+    {
+        "track": "Computer Science",
+        "code": "CS120",
+        "name": "Capstone Project II: Portfolio Presentation",
+        "description": "Refine your capstone application, document your work, and present a polished project ready to show employers.",
+        "review": {
+            "name": "Mukmic",
+            "image": "images/mukmic.webp",
+            "comment": "Capstone Project II: Portfolio Presentation gave me a portfolio piece I'm proud of. Working through it hands-on made all the difference."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI101",
+        "name": "Introduction to Artificial Intelligence",
+        "description": "Survey the field of AI, from its history to the core ideas behind search, reasoning, and learning systems.",
+        "review": {
+            "name": "Nadya",
+            "image": "images/nadya.webp",
+            "comment": "Introduction to Artificial Intelligence completely changed how I think about this field. The instructors broke it down so it finally clicked for me."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI102",
+        "name": "Data Structures and Algorithms",
+        "description": "Study arrays, linked lists, stacks, queues, trees, and graphs, and learn how to choose the right structure and algorithm for a given problem.",
+        "review": {
+            "name": "Olya",
+            "image": "images/olya.webp",
+            "comment": "I was intimidated at first, but Data Structures and Algorithms made everything approachable step by step. I actually look forward to the assignments now."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI103",
+        "name": "Search and Optimization Algorithms",
+        "description": "Learn how AI systems search through possibilities to find solutions, covering pathfinding, heuristics, and optimization techniques.",
+        "review": {
+            "name": "Paulina",
+            "image": "images/paulina.webp",
+            "comment": "The hands-on projects in Search and Optimization Algorithms gave me real confidence. I use what I learned in this class every day now."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI104",
+        "name": "Knowledge Representation and Reasoning",
+        "description": "Explore how to represent facts and rules so a machine can reason about them, including logic-based and semantic approaches.",
+        "review": {
+            "name": "Rana",
+            "image": "images/rana.webp",
+            "comment": "Knowledge Representation and Reasoning is one of the best classes in the program. I went in knowing almost nothing and came out building my own projects."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI105",
+        "name": "Natural Language Processing Fundamentals",
+        "description": "Learn how computers process and understand human language, covering tokenization, parsing, and text classification.",
+        "review": {
+            "name": "Ruqing",
+            "image": "images/ruqing.webp",
+            "comment": "I loved the pace of Natural Language Processing Fundamentals. It let me dig deep without ever feeling rushed or left behind."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI106",
+        "name": "Computer Vision Basics",
+        "description": "Understand how machines interpret images, covering image processing, feature detection, and object recognition.",
+        "review": {
+            "name": "Sara",
+            "image": "images/sara.webp",
+            "comment": "Thanks to Computer Vision Basics, it all finally makes sense to me. The feedback on my assignments was fast and specific."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI107",
+        "name": "Expert Systems and Rule-Based AI",
+        "description": "Build systems that mimic human expert decision-making using rule engines and structured knowledge bases.",
+        "review": {
+            "name": "Sarah",
+            "image": "images/sarah.webp",
+            "comment": "Expert Systems and Rule-Based AI pushed me further than I expected. It felt practical the whole way through, not just theoretical."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI108",
+        "name": "Intelligent Agents",
+        "description": "Design autonomous agents that perceive their environment and take action to achieve goals.",
+        "review": {
+            "name": "Victoria",
+            "image": "images/victoria.webp",
+            "comment": "I recommend Intelligent Agents to everyone starting out. The way they teach this material is unlike any class I've taken before."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI109",
+        "name": "AI Ethics and Responsible Design",
+        "description": "Examine the ethical implications of AI systems, including bias, fairness, transparency, and responsible deployment.",
+        "review": {
+            "name": "Ydenne",
+            "image": "images/ydenne.webp",
+            "comment": "Before taking AI Ethics and Responsible Design, this felt completely out of reach. Now it's one of my favorite subjects in the whole program."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI110",
+        "name": "Robotics and Automation Fundamentals",
+        "description": "Learn the basics of how AI controls physical systems, covering sensors, actuators, and control loops.",
+        "review": {
+            "name": "Yssa",
+            "image": "images/yssa.webp",
+            "comment": "Robotics and Automation Fundamentals gave me a portfolio piece I'm proud of. Working through it hands-on made all the difference."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI111",
+        "name": "Speech Recognition and Synthesis",
+        "description": "Study how machines convert speech to text and text to speech, and the models that make voice assistants possible.",
+        "review": {
+            "name": "Amanda",
+            "image": "images/amanda.webp",
+            "comment": "Speech Recognition and Synthesis completely changed how I think about this field. The instructors broke it down so it finally clicked for me."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI112",
+        "name": "Planning and Decision-Making Systems",
+        "description": "Learn how AI systems plan sequences of actions and make decisions under uncertainty.",
+        "review": {
+            "name": "Jenia",
+            "image": "images/jenia.webp",
+            "comment": "I was intimidated at first, but Planning and Decision-Making Systems made everything approachable step by step. I actually look forward to the assignments now."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI113",
+        "name": "Conversational AI and Chatbots",
+        "description": "Design and build chatbots and conversational interfaces, from rule-based systems to modern language-model-driven agents.",
+        "review": {
+            "name": "Maggie",
+            "image": "images/maggie.webp",
+            "comment": "The hands-on projects in Conversational AI and Chatbots gave me real confidence. I use what I learned in this class every day now."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI114",
+        "name": "Generative AI and Large Language Models",
+        "description": "Explore how large language models are trained and applied, and how to build applications on top of them responsibly.",
+        "review": {
+            "name": "Maryna",
+            "image": "images/maryna.webp",
+            "comment": "Generative AI and Large Language Models is one of the best classes in the program. I went in knowing almost nothing and came out building my own projects."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI115",
+        "name": "AI for Game Development",
+        "description": "Apply AI techniques like pathfinding and decision trees to build believable non-player characters and game behavior.",
+        "review": {
+            "name": "Mukmic",
+            "image": "images/mukmic.webp",
+            "comment": "I loved the pace of AI for Game Development. It let me dig deep without ever feeling rushed or left behind."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI116",
+        "name": "Multi-Agent Systems",
+        "description": "Study how multiple AI agents interact, cooperate, and compete within shared environments.",
+        "review": {
+            "name": "Nadya",
+            "image": "images/nadya.webp",
+            "comment": "Thanks to Multi-Agent Systems, it all finally makes sense to me. The feedback on my assignments was fast and specific."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI117",
+        "name": "Databases and Data Management",
+        "description": "Design relational databases, write SQL queries, and learn principles of data normalization and integrity.",
+        "review": {
+            "name": "Olya",
+            "image": "images/olya.webp",
+            "comment": "Databases and Data Management pushed me further than I expected. It felt practical the whole way through, not just theoretical."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI118",
+        "name": "AI Deployment and MLOps",
+        "description": "Learn how to take an AI model from a notebook to a production system that reliably serves real users.",
+        "review": {
+            "name": "Paulina",
+            "image": "images/paulina.webp",
+            "comment": "I recommend AI Deployment and MLOps to everyone starting out. The way they teach this material is unlike any class I've taken before."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI119",
+        "name": "AI Capstone Project I: Intelligent Systems",
+        "description": "Design and build an original AI-powered application, applying techniques from across the Artificial Intelligence track.",
+        "review": {
+            "name": "Rana",
+            "image": "images/rana.webp",
+            "comment": "Before taking AI Capstone Project I: Intelligent Systems, this felt completely out of reach. Now it's one of my favorite subjects in the whole program."
+        }
+    },
+    {
+        "track": "Artificial Intelligence",
+        "code": "AI120",
+        "name": "AI Capstone Project II: Portfolio Presentation",
+        "description": "Refine your AI capstone project, document your design decisions, and present a polished project ready to show employers.",
+        "review": {
+            "name": "Ruqing",
+            "image": "images/ruqing.webp",
+            "comment": "AI Capstone Project II: Portfolio Presentation gave me a portfolio piece I'm proud of. Working through it hands-on made all the difference."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML101",
+        "name": "Introduction to Machine Learning",
+        "description": "Get an overview of how machines learn from data, covering the core types of learning and the ML workflow end to end.",
+        "review": {
+            "name": "Sara",
+            "image": "images/sara.webp",
+            "comment": "Introduction to Machine Learning completely changed how I think about this field. The instructors broke it down so it finally clicked for me."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML102",
+        "name": "Data Structures and Algorithms",
+        "description": "Study arrays, linked lists, stacks, queues, trees, and graphs, and learn how to choose the right structure and algorithm for a given problem.",
+        "review": {
+            "name": "Sarah",
+            "image": "images/sarah.webp",
+            "comment": "I was intimidated at first, but Data Structures and Algorithms made everything approachable step by step. I actually look forward to the assignments now."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML103",
+        "name": "Supervised Learning",
+        "description": "Learn to build models that predict outcomes from labeled data, covering regression and classification techniques.",
+        "review": {
+            "name": "Victoria",
+            "image": "images/victoria.webp",
+            "comment": "The hands-on projects in Supervised Learning gave me real confidence. I use what I learned in this class every day now."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML104",
+        "name": "Unsupervised Learning and Clustering",
+        "description": "Discover patterns in unlabeled data using clustering and dimensionality reduction techniques.",
+        "review": {
+            "name": "Ydenne",
+            "image": "images/ydenne.webp",
+            "comment": "Unsupervised Learning and Clustering is one of the best classes in the program. I went in knowing almost nothing and came out building my own projects."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML105",
+        "name": "Neural Networks and Deep Learning",
+        "description": "Build and train neural networks from the ground up, covering forward propagation, backpropagation, and optimization.",
+        "review": {
+            "name": "Yssa",
+            "image": "images/yssa.webp",
+            "comment": "I loved the pace of Neural Networks and Deep Learning. It let me dig deep without ever feeling rushed or left behind."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML106",
+        "name": "Convolutional Neural Networks",
+        "description": "Learn how CNNs process images and video, and apply them to tasks like image classification and detection.",
+        "review": {
+            "name": "Amanda",
+            "image": "images/amanda.webp",
+            "comment": "Thanks to Convolutional Neural Networks, it all finally makes sense to me. The feedback on my assignments was fast and specific."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML107",
+        "name": "Recurrent Neural Networks and Sequence Models",
+        "description": "Study models designed for sequential data like text and time series, including RNNs and attention mechanisms.",
+        "review": {
+            "name": "Jenia",
+            "image": "images/jenia.webp",
+            "comment": "Recurrent Neural Networks and Sequence Models pushed me further than I expected. It felt practical the whole way through, not just theoretical."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML108",
+        "name": "Reinforcement Learning",
+        "description": "Learn how agents learn optimal behavior through trial and error using reward signals.",
+        "review": {
+            "name": "Maggie",
+            "image": "images/maggie.webp",
+            "comment": "I recommend Reinforcement Learning to everyone starting out. The way they teach this material is unlike any class I've taken before."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML109",
+        "name": "Feature Engineering and Data Preprocessing",
+        "description": "Learn to clean, transform, and engineer features from raw data to improve model performance.",
+        "review": {
+            "name": "Maryna",
+            "image": "images/maryna.webp",
+            "comment": "Before taking Feature Engineering and Data Preprocessing, this felt completely out of reach. Now it's one of my favorite subjects in the whole program."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML110",
+        "name": "Model Evaluation and Validation",
+        "description": "Learn how to measure model performance correctly, covering cross-validation, metrics, and avoiding overfitting.",
+        "review": {
+            "name": "Mukmic",
+            "image": "images/mukmic.webp",
+            "comment": "Model Evaluation and Validation gave me a portfolio piece I'm proud of. Working through it hands-on made all the difference."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML111",
+        "name": "Ensemble Methods",
+        "description": "Combine multiple models using techniques like bagging, boosting, and stacking to improve prediction accuracy.",
+        "review": {
+            "name": "Nadya",
+            "image": "images/nadya.webp",
+            "comment": "Ensemble Methods completely changed how I think about this field. The instructors broke it down so it finally clicked for me."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML112",
+        "name": "Time Series Forecasting",
+        "description": "Learn techniques for predicting future values from historical data, from classical methods to modern deep learning approaches.",
+        "review": {
+            "name": "Olya",
+            "image": "images/olya.webp",
+            "comment": "I was intimidated at first, but Time Series Forecasting made everything approachable step by step. I actually look forward to the assignments now."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML113",
+        "name": "Applied NLP for Machine Learning",
+        "description": "Apply machine learning techniques to text data, covering word embeddings, sentiment analysis, and text classification.",
+        "review": {
+            "name": "Paulina",
+            "image": "images/paulina.webp",
+            "comment": "The hands-on projects in Applied NLP for Machine Learning gave me real confidence. I use what I learned in this class every day now."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML114",
+        "name": "Generative Adversarial Networks",
+        "description": "Learn how GANs pit two networks against each other to generate realistic images, audio, and other synthetic data.",
+        "review": {
+            "name": "Rana",
+            "image": "images/rana.webp",
+            "comment": "Generative Adversarial Networks is one of the best classes in the program. I went in knowing almost nothing and came out building my own projects."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML115",
+        "name": "Transfer Learning and Fine-Tuning",
+        "description": "Learn to adapt large pretrained models to new tasks efficiently rather than training from scratch.",
+        "review": {
+            "name": "Ruqing",
+            "image": "images/ruqing.webp",
+            "comment": "I loved the pace of Transfer Learning and Fine-Tuning. It let me dig deep without ever feeling rushed or left behind."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML116",
+        "name": "Machine Learning in Production (MLOps)",
+        "description": "Learn how to package, deploy, monitor, and retrain ML models reliably in real production systems.",
+        "review": {
+            "name": "Sara",
+            "image": "images/sara.webp",
+            "comment": "Thanks to Machine Learning in Production (MLOps), it all finally makes sense to me. The feedback on my assignments was fast and specific."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML117",
+        "name": "Anomaly Detection",
+        "description": "Learn techniques for identifying unusual patterns in data, applied to use cases like fraud detection and monitoring.",
+        "review": {
+            "name": "Sarah",
+            "image": "images/sarah.webp",
+            "comment": "Anomaly Detection pushed me further than I expected. It felt practical the whole way through, not just theoretical."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML118",
+        "name": "Recommender Systems",
+        "description": "Build systems that predict user preferences, covering collaborative filtering and content-based recommendation techniques.",
+        "review": {
+            "name": "Victoria",
+            "image": "images/victoria.webp",
+            "comment": "I recommend Recommender Systems to everyone starting out. The way they teach this material is unlike any class I've taken before."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML119",
+        "name": "ML Capstone Project I: Model Development",
+        "description": "Design, train, and evaluate an original machine learning model to solve a real-world problem.",
+        "review": {
+            "name": "Ydenne",
+            "image": "images/ydenne.webp",
+            "comment": "Before taking ML Capstone Project I: Model Development, this felt completely out of reach. Now it's one of my favorite subjects in the whole program."
+        }
+    },
+    {
+        "track": "Machine Learning",
+        "code": "ML120",
+        "name": "ML Capstone Project II: Portfolio Presentation",
+        "description": "Refine your capstone model, document your process, and present a polished project ready to show employers.",
+        "review": {
+            "name": "Yssa",
+            "image": "images/yssa.webp",
+            "comment": "ML Capstone Project II: Portfolio Presentation gave me a portfolio piece I'm proud of. Working through it hands-on made all the difference."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC101",
+        "name": "Introduction to Quantum Computing",
+        "description": "Get an overview of quantum computing concepts and how they differ fundamentally from classical computing.",
+        "review": {
+            "name": "Amanda",
+            "image": "images/amanda.webp",
+            "comment": "Introduction to Quantum Computing completely changed how I think about this field. The instructors broke it down so it finally clicked for me."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC102",
+        "name": "Object-Oriented Programming",
+        "description": "Design programs around classes and objects, covering encapsulation, inheritance, and polymorphism through hands-on projects.",
+        "review": {
+            "name": "Jenia",
+            "image": "images/jenia.webp",
+            "comment": "I was intimidated at first, but Object-Oriented Programming made everything approachable step by step. I actually look forward to the assignments now."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC103",
+        "name": "Qubits and Quantum Gates",
+        "description": "Learn the building blocks of quantum computing, including superposition, entanglement, and how quantum gates manipulate qubits.",
+        "review": {
+            "name": "Maggie",
+            "image": "images/maggie.webp",
+            "comment": "The hands-on projects in Qubits and Quantum Gates gave me real confidence. I use what I learned in this class every day now."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC104",
+        "name": "Quantum Circuits and Algorithms",
+        "description": "Design quantum circuits and study foundational quantum algorithms that outperform their classical counterparts.",
+        "review": {
+            "name": "Maryna",
+            "image": "images/maryna.webp",
+            "comment": "Quantum Circuits and Algorithms is one of the best classes in the program. I went in knowing almost nothing and came out building my own projects."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC105",
+        "name": "Quantum Programming with Qiskit",
+        "description": "Write and run real quantum programs using an industry-standard quantum computing framework.",
+        "review": {
+            "name": "Mukmic",
+            "image": "images/mukmic.webp",
+            "comment": "I loved the pace of Quantum Programming with Qiskit. It let me dig deep without ever feeling rushed or left behind."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC106",
+        "name": "Quantum Cryptography",
+        "description": "Learn how quantum mechanics enables new forms of secure communication, including quantum key distribution.",
+        "review": {
+            "name": "Nadya",
+            "image": "images/nadya.webp",
+            "comment": "Thanks to Quantum Cryptography, it all finally makes sense to me. The feedback on my assignments was fast and specific."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC107",
+        "name": "Quantum Error Correction",
+        "description": "Study how quantum systems handle noise and errors, and the codes used to protect fragile quantum information.",
+        "review": {
+            "name": "Olya",
+            "image": "images/olya.webp",
+            "comment": "Quantum Error Correction pushed me further than I expected. It felt practical the whole way through, not just theoretical."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC108",
+        "name": "Grover's and Quantum Search Algorithms",
+        "description": "Explore quantum algorithms that search unsorted data faster than any classical algorithm can.",
+        "review": {
+            "name": "Paulina",
+            "image": "images/paulina.webp",
+            "comment": "I recommend Grover's and Quantum Search Algorithms to everyone starting out. The way they teach this material is unlike any class I've taken before."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC109",
+        "name": "Quantum Machine Learning",
+        "description": "Learn how quantum computing techniques can be applied to accelerate and enhance machine learning tasks.",
+        "review": {
+            "name": "Rana",
+            "image": "images/rana.webp",
+            "comment": "Before taking Quantum Machine Learning, this felt completely out of reach. Now it's one of my favorite subjects in the whole program."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC110",
+        "name": "Quantum Hardware and Architectures",
+        "description": "Study the physical systems used to build quantum computers, from superconducting qubits to trapped ions.",
+        "review": {
+            "name": "Ruqing",
+            "image": "images/ruqing.webp",
+            "comment": "Quantum Hardware and Architectures gave me a portfolio piece I'm proud of. Working through it hands-on made all the difference."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC111",
+        "name": "Quantum Simulation",
+        "description": "Learn how quantum computers can simulate physical and chemical systems that are intractable for classical computers.",
+        "review": {
+            "name": "Sara",
+            "image": "images/sara.webp",
+            "comment": "Quantum Simulation completely changed how I think about this field. The instructors broke it down so it finally clicked for me."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC112",
+        "name": "Quantum Networking and Communication",
+        "description": "Explore how quantum information can be transmitted and the foundations of a future quantum internet.",
+        "review": {
+            "name": "Sarah",
+            "image": "images/sarah.webp",
+            "comment": "I was intimidated at first, but Quantum Networking and Communication made everything approachable step by step. I actually look forward to the assignments now."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC113",
+        "name": "Introduction to Programming",
+        "description": "Learn the fundamentals of writing code: variables, control flow, functions, and how to break a problem down into steps a computer can follow.",
+        "review": {
+            "name": "Victoria",
+            "image": "images/victoria.webp",
+            "comment": "The hands-on projects in Introduction to Programming gave me real confidence. I use what I learned in this class every day now."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC114",
+        "name": "Quantum Complexity Theory",
+        "description": "Study what problems quantum computers can solve efficiently and how quantum complexity classes compare to classical ones.",
+        "review": {
+            "name": "Ydenne",
+            "image": "images/ydenne.webp",
+            "comment": "Quantum Complexity Theory is one of the best classes in the program. I went in knowing almost nothing and came out building my own projects."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC115",
+        "name": "Variational Quantum Algorithms",
+        "description": "Learn hybrid quantum-classical algorithms designed to run on today's noisy, near-term quantum hardware.",
+        "review": {
+            "name": "Yssa",
+            "image": "images/yssa.webp",
+            "comment": "I loved the pace of Variational Quantum Algorithms. It let me dig deep without ever feeling rushed or left behind."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC116",
+        "name": "Quantum Optimization",
+        "description": "Apply quantum computing techniques to solve complex optimization problems more efficiently.",
+        "review": {
+            "name": "Amanda",
+            "image": "images/amanda.webp",
+            "comment": "Thanks to Quantum Optimization, it all finally makes sense to me. The feedback on my assignments was fast and specific."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC117",
+        "name": "Post-Quantum Cryptography and Security",
+        "description": "Study cryptographic methods designed to remain secure even against attacks from future quantum computers.",
+        "review": {
+            "name": "Jenia",
+            "image": "images/jenia.webp",
+            "comment": "Post-Quantum Cryptography and Security pushed me further than I expected. It felt practical the whole way through, not just theoretical."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC118",
+        "name": "Quantum Software Development Tools",
+        "description": "Get hands-on with the growing ecosystem of tools and SDKs used to develop and test quantum software.",
+        "review": {
+            "name": "Maggie",
+            "image": "images/maggie.webp",
+            "comment": "I recommend Quantum Software Development Tools to everyone starting out. The way they teach this material is unlike any class I've taken before."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC119",
+        "name": "Quantum Computing Capstone Project I: Applications",
+        "description": "Design and build an original project applying quantum computing techniques to a real-world problem.",
+        "review": {
+            "name": "Maryna",
+            "image": "images/maryna.webp",
+            "comment": "Before taking Quantum Computing Capstone Project I: Applications, this felt completely out of reach. Now it's one of my favorite subjects in the whole program."
+        }
+    },
+    {
+        "track": "Quantum Computing",
+        "code": "QC120",
+        "name": "Quantum Computing Capstone Project II: Portfolio Presentation",
+        "description": "Refine your capstone project, document your approach, and present a polished project ready to show employers.",
+        "review": {
+            "name": "Mukmic",
+            "image": "images/mukmic.webp",
+            "comment": "Quantum Computing Capstone Project II: Portfolio Presentation gave me a portfolio piece I'm proud of. Working through it hands-on made all the difference."
+        }
+    },
+    {
+        "track": "General Education",
+        "code": "GE101",
+        "name": "College Algebra and Trigonometry",
+        "description": "Build the algebra and trigonometry foundation needed for calculus, covering functions, graphing, and trigonometric identities.",
+        "review": {
+            "name": "Nadya",
+            "image": "images/nadya.webp",
+            "comment": "College Algebra and Trigonometry completely changed how I think about this field. The instructors broke it down so it finally clicked for me."
+        }
+    },
+    {
+        "track": "General Education",
+        "code": "GE102",
+        "name": "Calculus 1",
+        "description": "Learn the fundamentals of differential calculus, covering limits, derivatives, and their applications.",
+        "review": {
+            "name": "Olya",
+            "image": "images/olya.webp",
+            "comment": "I was intimidated at first, but Calculus 1 made everything approachable step by step. I actually look forward to the assignments now."
+        }
+    },
+    {
+        "track": "General Education",
+        "code": "GE103",
+        "name": "Calculus 2",
+        "description": "Continue into integral calculus, covering techniques of integration, series, and their applications.",
+        "review": {
+            "name": "Paulina",
+            "image": "images/paulina.webp",
+            "comment": "The hands-on projects in Calculus 2 gave me real confidence. I use what I learned in this class every day now."
+        }
+    },
+    {
+        "track": "General Education",
+        "code": "GE104",
+        "name": "Calculus 3",
+        "description": "Extend calculus into multiple variables, covering partial derivatives, multiple integrals, and vector calculus.",
+        "review": {
+            "name": "Rana",
+            "image": "images/rana.webp",
+            "comment": "Calculus 3 is one of the best classes in the program. I went in knowing almost nothing and came out building my own projects."
+        }
+    },
+    {
+        "track": "General Education",
+        "code": "GE105",
+        "name": "Linear Algebra",
+        "description": "Study vectors, matrices, and linear transformations, the mathematical backbone behind much of computer science and machine learning.",
+        "review": {
+            "name": "Ruqing",
+            "image": "images/ruqing.webp",
+            "comment": "I loved the pace of Linear Algebra. It let me dig deep without ever feeling rushed or left behind."
+        }
+    },
+    {
+        "track": "General Education",
+        "code": "GE106",
+        "name": "Differential Equations",
+        "description": "Learn to model and solve equations that describe how systems change over time.",
+        "review": {
+            "name": "Sara",
+            "image": "images/sara.webp",
+            "comment": "Thanks to Differential Equations, it all finally makes sense to me. The feedback on my assignments was fast and specific."
+        }
+    },
+    {
+        "track": "General Education",
+        "code": "GE107",
+        "name": "Partial Differential Equations",
+        "description": "Extend differential equations to functions of multiple variables, used to model systems in physics and engineering.",
+        "review": {
+            "name": "Sarah",
+            "image": "images/sarah.webp",
+            "comment": "Partial Differential Equations pushed me further than I expected. It felt practical the whole way through, not just theoretical."
+        }
+    },
+    {
+        "track": "General Education",
+        "code": "GE108",
+        "name": "Complex Variables",
+        "description": "Study functions of complex numbers, covering analytic functions, contour integration, and their applications.",
+        "review": {
+            "name": "Victoria",
+            "image": "images/victoria.webp",
+            "comment": "I recommend Complex Variables to everyone starting out. The way they teach this material is unlike any class I've taken before."
+        }
+    },
+    {
+        "track": "General Education",
+        "code": "GE109",
+        "name": "Discrete Mathematics",
+        "description": "Learn the mathematical foundations of computer science, covering logic, set theory, combinatorics, and graph theory.",
+        "review": {
+            "name": "Ydenne",
+            "image": "images/ydenne.webp",
+            "comment": "Before taking Discrete Mathematics, this felt completely out of reach. Now it's one of my favorite subjects in the whole program."
+        }
+    },
+    {
+        "track": "General Education",
+        "code": "GE110",
+        "name": "Writing 101",
+        "description": "Build foundational academic writing skills, covering structure, clarity, and argumentation.",
+        "review": {
+            "name": "Yssa",
+            "image": "images/yssa.webp",
+            "comment": "Writing 101 gave me a portfolio piece I'm proud of. Working through it hands-on made all the difference."
+        }
+    },
+    {
+        "track": "General Education",
+        "code": "GE111",
+        "name": "Professional Writing",
+        "description": "Learn to write clearly and persuasively in professional and technical contexts, from emails to reports.",
+        "review": {
+            "name": "Amanda",
+            "image": "images/amanda.webp",
+            "comment": "Professional Writing completely changed how I think about this field. The instructors broke it down so it finally clicked for me."
+        }
+    }
+]

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nauvoo Tech Academy Enroll Page</title> 
+        <meta name="description" content="Nauvoo Tech Academy Enroll Page featuring information about each program plus a form to enroll in NTA.">
+        <meta name="author" content="S Lee Ward">
+        <link rel="icon" type="image/ico" href="images/nta-logo.ico">
+
+        <meta property="og:title" content="Nauvoo Tech Academy Enroll Page">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Nauvoo Tech Academy Enroll Page. Sign-up here to experience AI-powered university education in 4 program tracks.">
+        <meta property="og:url" content="https://ward-wolf.github.io/wdd231/final/enroll.html">
+        <meta property="og:image" content="https://ward-wolf.github.io/wdd231/final/images/nta-logo.png">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/medium.css" media="(min-width: 641px)">
+        <link rel="stylesheet" href="styles/large.css" media="(min-width: 1025px)">
+        <script src="scripts/date.js" defer></script>
+        <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/program-details.js" defer></script>
+        <script src="scripts/country-select.mjs" type="module"></script>
+        <script src="scripts/enroll-draft.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="header-bar">
+                <img src="images/nta-logo.svg" alt="Nauvoo Tech Logo" width="150" height="50">
+                <span>Nauvoo Tech Academy</span>
+                <div class="header-top">
+                    <button type="button" id="menu" aria-label="Menu" aria-expanded="false" aria-controls="nav-bar">&#9776;</button>
+                </div>
+            </div>
+            <nav id="nav-bar" class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="enroll.html">Enroll</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Enroll in Nauvoo Tech Today!</h1>
+
+            <div class="join-layout">
+                <form class="join-form" method="GET" action="thankyou.html">
+                    <h2>Application Form</h2>
+
+                    <fieldset>
+                        <legend>Your Information</legend>
+
+                        <label>First Name
+                            <input type="text" name="firstName" required title="Enter your first name" autocomplete="given-name">
+                        </label>
+
+                        <label>Last Name
+                            <input type="text" name="lastName" required title="Enter your last name" autocomplete="family-name">
+                        </label>
+
+                        <label>Date of Birth
+                            <input type="date" name="dob" required title="Enter your date of birth" autocomplete="bday">
+                        </label>
+
+                        <label>Country of Residence
+                            <select name="country" id="country" required title="Select your country of residence" autocomplete="country-name">
+                                <option value="">Select your country</option>
+                            </select>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Contact Information</legend>
+
+                        <label>Email Address
+                            <input type="email" name="email" required title="Enter your email address" autocomplete="email" placeholder="username@domain.com">
+                        </label>
+
+                        <label>Mobile Phone Number
+                            <input type="tel" name="mobilePhone" required title="Enter your mobile phone number" autocomplete="tel">
+                        </label>
+
+                        <label class="checkbox-field">This number has WhatsApp
+                            <input type="checkbox" name="hasWhatsApp" title="Check this box if your mobile number has WhatsApp">
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Program Information</legend>
+
+                        <label>What Program Interests You
+                            <select name="programChoice" required>
+                                <option value="">Select a program</option>
+                                <option value="cs">Computer Science</option>
+                                <option value="ai">Artificial Intelligence</option>
+                                <option value="ml">Machine Learning</option>
+                                <option value="qc">Quantum Computing</option>
+                            </select>
+                        </label>
+
+                        <label>Tell Us About Yourself
+                            <textarea name="description" title="Briefly tell us about yourself and your background. We want to get to know you!" required></textarea>
+                        </label>
+                    </fieldset>
+
+                    <input type="hidden" name="timestamp" id="timestamp">
+
+                    <input type="submit" value="Enroll Now!">
+                </form>
+
+                <section class="program-choices">
+                    <h2>Select a Program</h2>
+                    <div class="grid-view">
+                        <section>
+                            <h3>Computer Science</h3>
+                            <button type="button" class="cta-button" data-level="cs" aria-label="Learn more about Computer Science">Learn More</button>
+                        </section>
+                        <section>
+                            <h3>Artificial Intelligence</h3>
+                            <button type="button" class="cta-button" data-level="ai" aria-label="Learn more about Artificial Intelligence">Learn More</button>
+                        </section>
+                        <section>
+                            <h3>Machine Learning</h3>
+                            <button type="button" class="cta-button" data-level="ml" aria-label="Learn more about Machine Learning">Learn More</button>
+                        </section>
+                        <section>
+                            <h3>Quantum Computing</h3>
+                            <button type="button" class="cta-button" data-level="qc" aria-label="Learn more about Quantum Computing">Learn More</button>
+                        </section>
+                    </div>
+                </section>
+            </div>
+
+            <dialog id="program-details"></dialog>
+        </main>
+        <footer>
+            <div class="address">
+                <p>Nauvoo Tech Academy</p>
+                <p>Rolex Tower Suite 42B</p>
+                <p>Sheikh Zayed Road</p>
+                <p>Dubai, Dubai UAE</p>
+                <p>info@nauvootech.edu</p>
+                <p>+971-4-NTA-TECH (4-682-8324)</p>
+            </div>
+            <div class="socialmedia">
+                <a href="https://youtube.com/"><img src="images/youtube.svg" alt="YouTube" width="30" height="30" loading="lazy"></a>
+                <a href="https://www.x.com/"><img src="images/twitter-x.svg" alt="X" width="30" height="30" loading="lazy"></a>
+                <a href="https://www.linkedin.com/"><img src="images/linkedin.svg" alt="LinkedIn" width="30" height="30" loading="lazy"></a>
+            </div>
+            <div class="my-data">
+                <p><a href="https://youtube.com">WDD231 Final Video</a></p>
+                <p>S Lee Ward</p>
+                <p>©<span id="currentyear"></span> <span aria-hidden="true"></span> Nauvoo Tech Academy <span aria-hidden="true"></span></p>
+                <p>Last Modification: <span id="lastModified"></span></p>
+            </div>
+        </footer>
+
+    </body>
+
+</html>

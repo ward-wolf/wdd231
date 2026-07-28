@@ -1,0 +1,119 @@
+@media screen and (min-width: 641px) {
+
+    /* Hide hamburger, show nav on the right side of the header */
+    header {
+        display: flex;
+        align-items: center;
+    }
+
+    header .header-top {
+        display: none;
+    }
+
+    header span {
+        max-width: none;
+    }
+
+    header img {
+        width: 120px;
+    }
+
+    .navigation {
+        display: block;
+        width: auto;
+        margin-left: auto;
+    }
+
+    .navigation ul {
+        flex-direction: row;
+        gap: 0.75rem;
+        padding-top: 0;
+    }
+
+    /* Home page: events / tuition / call-to-action in one row */
+    .info-row {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .info-row > section {
+        flex: 1;
+    }
+
+    /* Footer: address left, social media centered, my-data right */
+    footer {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 1.5rem 2rem;
+    }
+
+    footer > div {
+        margin-bottom: 0;
+    }
+
+    footer .address {
+        text-align: left;
+    }
+
+    footer .my-data {
+        text-align: right;
+    }
+
+    /* Discover page: show the full Success Stories grid instead of the mobile carousel */
+    .success-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .success-grid figure {
+        display: flex;
+    }
+
+    .carousel-arrow {
+        display: none;
+    }
+
+    /* Classes page: track selector buttons */
+    .program-buttons {
+        justify-content: center;
+    }
+
+    .program-buttons button {
+        flex: none;
+        padding: 0.5rem 2rem;
+    }
+
+    /* Enroll page: form on the left, program choices on the right */
+    .join-layout {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .join-form,
+    .program-choices {
+        flex: 1;
+    }
+
+    /* Discover page: purpose and picture side by side */
+    .about-hero article {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .about-hero article img {
+        margin-top: 0;
+    }
+
+    /* Home page: tuition quote, a little bigger */
+    .tuition-quote img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .tuition-quote blockquote {
+        font-size: var(--fs-base);
+    }
+
+}

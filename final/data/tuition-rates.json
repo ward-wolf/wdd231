@@ -1,0 +1,770 @@
+[
+    {
+        "country": "Albania",
+        "cost": 469.3
+    },
+    {
+        "country": "American Samoa",
+        "cost": 393.3
+    },
+    {
+        "country": "Angola",
+        "cost": 102.6
+    },
+    {
+        "country": "Anguilla",
+        "cost": 442.7
+    },
+    {
+        "country": "Antigua and Barbuda",
+        "cost": 646.0
+    },
+    {
+        "country": "Argentina",
+        "cost": 252.7
+    },
+    {
+        "country": "Armenia",
+        "cost": 264.1
+    },
+    {
+        "country": "Aruba",
+        "cost": 855.0
+    },
+    {
+        "country": "Australia",
+        "cost": 1320.5
+    },
+    {
+        "country": "Austria",
+        "cost": 1502.9
+    },
+    {
+        "country": "Azerbaijan",
+        "cost": 271.7
+    },
+    {
+        "country": "Bahamas",
+        "cost": 712.5
+    },
+    {
+        "country": "Bahrain",
+        "cost": 235.6
+    },
+    {
+        "country": "Bangladesh",
+        "cost": 209.0
+    },
+    {
+        "country": "Barbados",
+        "cost": 494.0
+    },
+    {
+        "country": "Belarus",
+        "cost": 172.9
+    },
+    {
+        "country": "Belgium",
+        "cost": 1495.3
+    },
+    {
+        "country": "Belize",
+        "cost": 376.2
+    },
+    {
+        "country": "Benin",
+        "cost": 106.4
+    },
+    {
+        "country": "Bermuda",
+        "cost": 967.1
+    },
+    {
+        "country": "Bolivia",
+        "cost": 275.5
+    },
+    {
+        "country": "Bonaire, Sint Eustatius and Saba",
+        "cost": 554.8
+    },
+    {
+        "country": "Bosnia and Herzegovina",
+        "cost": 442.7
+    },
+    {
+        "country": "Botswana",
+        "cost": 271.7
+    },
+    {
+        "country": "Brazil",
+        "cost": 450.3
+    },
+    {
+        "country": "Bulgaria",
+        "cost": 288.8
+    },
+    {
+        "country": "Burundi",
+        "cost": 41.8
+    },
+    {
+        "country": "Cabo Verde",
+        "cost": 209.0
+    },
+    {
+        "country": "Cambodia",
+        "cost": 131.1
+    },
+    {
+        "country": "Cameroon",
+        "cost": 131.1
+    },
+    {
+        "country": "Canada",
+        "cost": 1278.7
+    },
+    {
+        "country": "Cayman Islands",
+        "cost": 790.4
+    },
+    {
+        "country": "Central African Republic",
+        "cost": 58.9
+    },
+    {
+        "country": "Chile",
+        "cost": 494.0
+    },
+    {
+        "country": "Colombia",
+        "cost": 427.5
+    },
+    {
+        "country": "Cook Islands",
+        "cost": 406.6
+    },
+    {
+        "country": "Costa Rica",
+        "cost": 571.9
+    },
+    {
+        "country": "Cote D'Ivoire",
+        "cost": 167.2
+    },
+    {
+        "country": "Croatia",
+        "cost": 720.1
+    },
+    {
+        "country": "Curacao",
+        "cost": 551.0
+    },
+    {
+        "country": "Cyprus",
+        "cost": 286.9
+    },
+    {
+        "country": "Czechia",
+        "cost": 1077.3
+    },
+    {
+        "country": "Democratic Republic of the Congo",
+        "cost": 57.0
+    },
+    {
+        "country": "Denmark",
+        "cost": 1620.7
+    },
+    {
+        "country": "Dominica",
+        "cost": 444.6
+    },
+    {
+        "country": "Dominican Republic",
+        "cost": 533.9
+    },
+    {
+        "country": "Ecuador",
+        "cost": 349.6
+    },
+    {
+        "country": "Egypt",
+        "cost": 148.2
+    },
+    {
+        "country": "El Salvador",
+        "cost": 319.2
+    },
+    {
+        "country": "Estonia",
+        "cost": 699.2
+    },
+    {
+        "country": "Eswatini",
+        "cost": 144.4
+    },
+    {
+        "country": "Ethiopia",
+        "cost": 85.5
+    },
+    {
+        "country": "Fiji",
+        "cost": 355.3
+    },
+    {
+        "country": "Finland",
+        "cost": 1333.8
+    },
+    {
+        "country": "France",
+        "cost": 1288.2
+    },
+    {
+        "country": "French Guiana",
+        "cost": 573.8
+    },
+    {
+        "country": "French Polynesia",
+        "cost": 602.3
+    },
+    {
+        "country": "Gabon",
+        "cost": 285.0
+    },
+    {
+        "country": "Georgia",
+        "cost": 209.0
+    },
+    {
+        "country": "Germany",
+        "cost": 1311.0
+    },
+    {
+        "country": "Ghana",
+        "cost": 119.7
+    },
+    {
+        "country": "Greece",
+        "cost": 585.2
+    },
+    {
+        "country": "Grenada",
+        "cost": 224.2
+    },
+    {
+        "country": "Guadeloupe",
+        "cost": 752.4
+    },
+    {
+        "country": "Guam",
+        "cost": 896.8
+    },
+    {
+        "country": "Guatemala",
+        "cost": 302.1
+    },
+    {
+        "country": "Guinea",
+        "cost": 102.6
+    },
+    {
+        "country": "Guinea-Bissau",
+        "cost": 83.6
+    },
+    {
+        "country": "Guyana",
+        "cost": 507.3
+    },
+    {
+        "country": "Haiti",
+        "cost": 64.6
+    },
+    {
+        "country": "Honduras",
+        "cost": 171.0
+    },
+    {
+        "country": "Hong Kong",
+        "cost": 503.5
+    },
+    {
+        "country": "Hungary",
+        "cost": 741.0
+    },
+    {
+        "country": "Iceland",
+        "cost": 1147.6
+    },
+    {
+        "country": "India",
+        "cost": 195.7
+    },
+    {
+        "country": "Indonesia",
+        "cost": 326.8
+    },
+    {
+        "country": "Iraq",
+        "cost": 235.6
+    },
+    {
+        "country": "Ireland",
+        "cost": 1244.5
+    },
+    {
+        "country": "Isle of Man",
+        "cost": 1692.9
+    },
+    {
+        "country": "Italy",
+        "cost": 917.7
+    },
+    {
+        "country": "Jamaica",
+        "cost": 275.5
+    },
+    {
+        "country": "Japan",
+        "cost": 1098.2
+    },
+    {
+        "country": "Jordan",
+        "cost": 235.6
+    },
+    {
+        "country": "Kazakhstan",
+        "cost": 178.6
+    },
+    {
+        "country": "Kenya",
+        "cost": 153.9
+    },
+    {
+        "country": "Kiribati",
+        "cost": 144.4
+    },
+    {
+        "country": "Kosovo",
+        "cost": 359.1
+    },
+    {
+        "country": "Kuwait",
+        "cost": 235.6
+    },
+    {
+        "country": "Laos",
+        "cost": 188.1
+    },
+    {
+        "country": "Latvia",
+        "cost": 699.2
+    },
+    {
+        "country": "Lebanon",
+        "cost": 98.8
+    },
+    {
+        "country": "Lesotho",
+        "cost": 93.1
+    },
+    {
+        "country": "Liberia",
+        "cost": 66.5
+    },
+    {
+        "country": "Lithuania",
+        "cost": 699.2
+    },
+    {
+        "country": "Luxembourg",
+        "cost": 1917.1
+    },
+    {
+        "country": "Macao",
+        "cost": 503.5
+    },
+    {
+        "country": "Madagascar",
+        "cost": 66.5
+    },
+    {
+        "country": "Malawi",
+        "cost": 57.0
+    },
+    {
+        "country": "Malaysia",
+        "cost": 248.9
+    },
+    {
+        "country": "Mali",
+        "cost": 79.8
+    },
+    {
+        "country": "Malta",
+        "cost": 997.5
+    },
+    {
+        "country": "Marshall Islands",
+        "cost": 218.5
+    },
+    {
+        "country": "Martinique",
+        "cost": 602.3
+    },
+    {
+        "country": "Mauritius",
+        "cost": 321.1
+    },
+    {
+        "country": "Mexico",
+        "cost": 514.9
+    },
+    {
+        "country": "Micronesia",
+        "cost": 184.3
+    },
+    {
+        "country": "Moldova",
+        "cost": 228.0
+    },
+    {
+        "country": "Mongolia",
+        "cost": 277.4
+    },
+    {
+        "country": "Montenegro",
+        "cost": 680.2
+    },
+    {
+        "country": "Montserrat",
+        "cost": 442.7
+    },
+    {
+        "country": "Morocco",
+        "cost": 178.6
+    },
+    {
+        "country": "Mozambique",
+        "cost": 66.5
+    },
+    {
+        "country": "Myanmar",
+        "cost": 136.8
+    },
+    {
+        "country": "Namibia",
+        "cost": 140.6
+    },
+    {
+        "country": "Native American",
+        "cost": 773.3
+    },
+    {
+        "country": "Nauru",
+        "cost": 503.5
+    },
+    {
+        "country": "Nepal",
+        "cost": 146.3
+    },
+    {
+        "country": "Netherlands",
+        "cost": 1645.4
+    },
+    {
+        "country": "New Caledonia",
+        "cost": 562.4
+    },
+    {
+        "country": "New Zealand",
+        "cost": 940.5
+    },
+    {
+        "country": "Nicaragua",
+        "cost": 190.0
+    },
+    {
+        "country": "Nigeria",
+        "cost": 95.0
+    },
+    {
+        "country": "Niue",
+        "cost": 416.1
+    },
+    {
+        "country": "North Macedonia",
+        "cost": 535.8
+    },
+    {
+        "country": "Northern Mariana Islands",
+        "cost": 448.4
+    },
+    {
+        "country": "Norway",
+        "cost": 1590.3
+    },
+    {
+        "country": "Oman",
+        "cost": 235.6
+    },
+    {
+        "country": "Pakistan",
+        "cost": 117.8
+    },
+    {
+        "country": "Palau",
+        "cost": 368.6
+    },
+    {
+        "country": "Panama",
+        "cost": 727.7
+    },
+    {
+        "country": "Papua New Guinea",
+        "cost": 133.0
+    },
+    {
+        "country": "Paraguay",
+        "cost": 378.1
+    },
+    {
+        "country": "Peru",
+        "cost": 357.2
+    },
+    {
+        "country": "Philippines",
+        "cost": 281.2
+    },
+    {
+        "country": "Pitcairn",
+        "cost": 152.0
+    },
+    {
+        "country": "Poland",
+        "cost": 885.4
+    },
+    {
+        "country": "Portugal",
+        "cost": 836.0
+    },
+    {
+        "country": "Puerto Rico",
+        "cost": 693.5
+    },
+    {
+        "country": "Qatar",
+        "cost": 235.6
+    },
+    {
+        "country": "Republic of Korea",
+        "cost": 1187.5
+    },
+    {
+        "country": "Republic of the Congo",
+        "cost": 114.0
+    },
+    {
+        "country": "Reunion",
+        "cost": 233.7
+    },
+    {
+        "country": "Romania",
+        "cost": 604.2
+    },
+    {
+        "country": "Rwanda",
+        "cost": 95.0
+    },
+    {
+        "country": "Saint Barthelemy",
+        "cost": 438.9
+    },
+    {
+        "country": "Saint Kitts and Nevis",
+        "cost": 699.2
+    },
+    {
+        "country": "Saint Lucia",
+        "cost": 509.2
+    },
+    {
+        "country": "Saint Martin (French)",
+        "cost": 630.8
+    },
+    {
+        "country": "Saint Vincent and the Grenadines",
+        "cost": 304.0
+    },
+    {
+        "country": "Samoa",
+        "cost": 275.5
+    },
+    {
+        "country": "Saudi Arabia",
+        "cost": 235.6
+    },
+    {
+        "country": "Senegal",
+        "cost": 117.8
+    },
+    {
+        "country": "Serbia",
+        "cost": 600.4
+    },
+    {
+        "country": "Sierra Leone",
+        "cost": 62.7
+    },
+    {
+        "country": "Singapore",
+        "cost": 1352.8
+    },
+    {
+        "country": "Sint Maarten",
+        "cost": 630.8
+    },
+    {
+        "country": "Slovakia",
+        "cost": 910.1
+    },
+    {
+        "country": "Slovenia",
+        "cost": 1141.9
+    },
+    {
+        "country": "Solomon Islands",
+        "cost": 121.6
+    },
+    {
+        "country": "South Africa",
+        "cost": 231.8
+    },
+    {
+        "country": "Spain",
+        "cost": 775.2
+    },
+    {
+        "country": "Sri Lanka",
+        "cost": 209.0
+    },
+    {
+        "country": "Sudan",
+        "cost": 77.9
+    },
+    {
+        "country": "Suriname",
+        "cost": 207.1
+    },
+    {
+        "country": "Sweden",
+        "cost": 1434.5
+    },
+    {
+        "country": "Switzerland",
+        "cost": 1846.8
+    },
+    {
+        "country": "Taiwan",
+        "cost": 482.6
+    },
+    {
+        "country": "Tanzania",
+        "cost": 104.5
+    },
+    {
+        "country": "Thailand",
+        "cost": 273.6
+    },
+    {
+        "country": "The Gambia",
+        "cost": 89.3
+    },
+    {
+        "country": "Timor-Liste",
+        "cost": 119.7
+    },
+    {
+        "country": "Togo",
+        "cost": 104.5
+    },
+    {
+        "country": "Tonga",
+        "cost": 359.1
+    },
+    {
+        "country": "Trinidad and Tobago",
+        "cost": 737.2
+    },
+    {
+        "country": "Tunisia",
+        "cost": 235.6
+    },
+    {
+        "country": "T\u00fcrkiye",
+        "cost": 176.7
+    },
+    {
+        "country": "Turks and Caicos Islands",
+        "cost": 758.1
+    },
+    {
+        "country": "Tuvalu",
+        "cost": 195.7
+    },
+    {
+        "country": "Uganda",
+        "cost": 104.5
+    },
+    {
+        "country": "Ukraine",
+        "cost": 148.2
+    },
+    {
+        "country": "United Arab Emirates",
+        "cost": 235.6
+    },
+    {
+        "country": "United Kingdom",
+        "cost": 1195.1
+    },
+    {
+        "country": "Uruguay",
+        "cost": 391.4
+    },
+    {
+        "country": "USA",
+        "cost": 1691.0
+    },
+    {
+        "country": "Uzbekistan",
+        "cost": 264.1
+    },
+    {
+        "country": "Vanuatu",
+        "cost": 142.5
+    },
+    {
+        "country": "Venezuela",
+        "cost": 296.4
+    },
+    {
+        "country": "Vietnam",
+        "cost": 313.5
+    },
+    {
+        "country": "Virgin Islands, British",
+        "cost": 1045.0
+    },
+    {
+        "country": "Virgin Islands, U.S.",
+        "cost": 1024.1
+    },
+    {
+        "country": "Zambia",
+        "cost": 104.5
+    },
+    {
+        "country": "Zimbabwe",
+        "cost": 115.9
+    }
+]
