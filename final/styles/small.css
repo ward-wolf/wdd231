@@ -259,10 +259,23 @@ dialog button {
 
 /* Call to action: overlaps the bottom edge of the hero image */
 
+/* ORIGINAL narrow, centered call-to-action box -- restore this and remove
+   the TEMPORARY rule below to go back to the previous look.
 .call-to-action {
     position: relative;
     max-width: 340px;
     margin: -40px auto 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 12px var(--shadow);
+}
+*/
+
+/* TEMPORARY: full-width call-to-action banner overlapping the bottom of the hero */
+.call-to-action {
+    position: relative;
+    max-width: none;
+    margin: -60px 0 1.5rem;
     padding: 1.5rem;
     text-align: center;
     box-shadow: 0 4px 12px var(--shadow);
