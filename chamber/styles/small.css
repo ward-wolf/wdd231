@@ -318,6 +318,7 @@ dialog button:hover {
 #welcome {
   padding: 1.5rem;
   max-width: 500px;
+  min-height: 480px;
 }
 
 #welcome h2,
@@ -454,6 +455,12 @@ dialog button:hover {
   font-size: 1rem;
 }
 
+/* Reserve space before the fetched member cards arrive, to avoid a layout shift when they're inserted */
+
+#cards {
+  min-height: 100vh;
+}
+
 /* Member cards: grid view */
 
 .grid-view {
@@ -510,6 +517,12 @@ dialog button:hover {
 
 #places-cards.grid-view {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+/* Reserve space before the fetched place cards arrive, to avoid a layout shift when they're inserted */
+
+#places-cards {
+  min-height: 100vh;
 }
 
 #places-cards .place-grid {

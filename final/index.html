@@ -17,7 +17,12 @@
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://ipapi.co">
+        <link rel="preconnect" href="https://api.frankfurter.dev">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:ital,wght@0,400;0,700;1,400&display=optional" rel="stylesheet" media="print" onload="this.media='all'">
+        <noscript>
+            <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:ital,wght@0,400;0,700;1,400&display=optional" rel="stylesheet">
+        </noscript>
         <link rel="stylesheet" href="styles/normalize.css">
         <link rel="stylesheet" href="styles/small.css">
         <link rel="stylesheet" href="styles/medium.css" media="(min-width: 641px)">
@@ -50,7 +55,7 @@
             <h1>Welcome to Nauvoo Tech!</h1>
 
             <picture>
-                <source srcset="images/small-quantum.webp" media="(max-width: 599px)">
+                <source srcset="images/small-quantum.webp" media="(max-width: 599px)" width="700" height="933">
                 <img src="images/large-quantum.webp" alt="Quantum Computer Network" width="550" height="424" fetchpriority="high" class="hero-image">
             </picture>
 
